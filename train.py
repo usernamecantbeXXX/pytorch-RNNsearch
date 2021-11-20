@@ -7,7 +7,9 @@ import os
 #DIRS = SCRIPT_DIR.split("/")
 #SCRIPT_DIR = '/'.join(DIRS[:-1])
 #sys.path.append(os.path.dirname(SCRIPT_DIR))
-sys.path.append("/home/johann/sonstiges/machine-learning-playground/src")
+#sys.path.append("/home/johann/sonstiges/machine-learning-playground/src")
+#sys.path.append("D:\sam\PycharmProjects\pytorch-RNNsearch")
+sys.path.append("/home/domp/pytorch-RNNsearch")
 
 import time 
 from datetime import datetime 
