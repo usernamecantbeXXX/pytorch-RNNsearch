@@ -1,0 +1,1953 @@
+Length of vocab [de - IWSLT2017]: 16713
+Length of vocab [en - IWSLT2017]: 14016
+Initialize weights...
+Number of parameters: 39430592                                                                                                                                                                                                                                                                                               Length of vocab [en - IWSLT2017]: 14016                                                                                                                          Initialize weights...                                                                                                                                            Number of parameters: 39430592
+Number of training mini-batches: 3221
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3221/3221 [15:49<00:00,  3.39it/s]
+Number of val mini-batches: 28
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:02<00:00, 11.55it/s]==========================================================================================                                                                       SRC:    Vor einigen Jahren , hier bei TED , stellte Peter unk einen unk namens " Die unk " vor .                                                                 TGT:    Several years ago here at TED , Peter unk   introduced a design challenge   called the marshmallow challenge .
+==========================================================================================
+SRC:    Vor einigen Jahren , hier bei TED , stellte Peter unk einen unk namens " Die unk " vor .
+TGT:    Several years ago here at TED , Peter unk   introduced a design challenge   called the marshmallow challenge .
+------------------------------------------------------------------------------------------
+PRED:   And : unk , , , , , , , , , , , , and the , , and the , .
+==========================================================================================
+SRC:    Die Idee ist ziemlich einfach . unk müssen die unk unk Struktur mit 20 unk , ca. 1 m Klebeband , ca. 1 m Faden und einem Marshmallow bauen .
+TGT:    And the idea 's pretty simple :   unk of four have to build the tallest free - standing structure   out of 20 sticks of spaghetti ,   one yard of tape , one yard of string   and a marshmallow
+ .
+------------------------------------------------------------------------------------------
+PRED:   And the unk , that we have to the , and that we have to the , and that 's a to , and that 's a to , and the , and the , and the , and the , and the unk .
+==========================================================================================
+SRC:    Der Marshmallow muss oben drauf sein .
+TGT:    The marshmallow has to be on top .
+------------------------------------------------------------------------------------------
+PRED:   And : I 'm n't have to to to to . .
+==========================================================================================
+SRC:    Und , obwohl es wirklich einfach scheint , ist es tatsächlich richtig schwer , weil es Leute drängt sehr schnell zusammenzuarbeiten .
+TGT:    And , though it seems really simple , it 's actually pretty hard   because it forces people   to collaborate very quickly .
+------------------------------------------------------------------------------------------
+PRED:   And I I think that I 'm that I 'm that I 'm to that I 'm to to to to to to to to to to to to to to to to to to to .
+==========================================================================================
+SRC:    Und so dachte ich , dass dies eine interessante Idee ist und ich habe es in einen unk verwandelt .
+TGT:    And so , I thought this was an interesting idea ,   and I unk it into a design workshop .
+------------------------------------------------------------------------------------------
+PRED:   And I I think that I 'm a to , that I 'm to to to to , that I 'm to to to to to to to to to to to to .
+==========================================================================================
+SRC:    Es war ein riesiger Erfolg .
+TGT:    And it was a huge success .
+------------------------------------------------------------------------------------------
+PRED:   I 'm n't have to that you 're . .
+
+Epoch: 1 | Time: 17m 22s
+        Train loss: 5.835676244607219 | Train perplexity: 342.2961317138882
+        Val loss: 6.162492258208139 | Val perplexity: 474.6094513765013
+Number of training mini-batches: 3221
+87%|████████████████████████████████████████████████████████████████████████████████████████████████████████▍
+| 2802/3221 [13:31<02:08,  3.26it/s]train.py:77: FutureWarning: Non-finite norm encountered in torch.nn.utils.clip_
+grad_norm_; continuing anyway. Note that the default behavior will change in a future release to error out if a non-finite total norm is encountered. At that poi
+nt, setting error_if_nonfinite=false will be required to retain the old behavior.
+  torch.nn.utils.clip_grad_norm_(model.parameters(), clip)
+100%|████████████████████████████████████████████████████████████████████████████████████
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3221/3221 [15:41<00:00,  3.42it/s]
+Number of val mini-batches: 28
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:02<00:00, 10.96it/s]
+==========================================================================================
+SRC:    Vor einigen Jahren , hier bei TED , stellte Peter unk einen unk namens " Die unk " vor .
+TGT:    Several years ago here at TED , Peter unk   introduced a design challenge   called the marshmallow challenge .
+------------------------------------------------------------------------------------------
+PRED:   And in the , and , , , , , unk , unk , unk , unk , " unk , " unk is a unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk -
+ unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk
+- unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk
+ - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - un
+k - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - u
+nk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk -
+unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk -
+ unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk
+- unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk
+ - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - un
+k - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - u
+nk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk -
+unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk -
+ unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk
+- unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk
+ - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - un
+k - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - u
+nk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk -
+unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk - unk -
+==========================================================================================
+SRC:    Die Idee ist ziemlich einfach . unk müssen die unk unk Struktur mit 20 unk , ca. 1 m Klebeband , ca. 1 m Faden und einem Marshmallow bauen .
+TGT:    And the idea 's pretty simple :   unk of four have to build the tallest free - standing structure   out of 20 sticks of spaghetti ,   one yard of tape ,
+one yard of string   and a marshmallow .
+------------------------------------------------------------------------------------------
+PRED:   unk is a is that is a unk of a unk of a unk of a unk of unk , unk , unk , , , , , and , and the , and the , and the unk , and the unk .
+==========================================================================================
+SRC:    Der Marshmallow muss oben drauf sein .
+TGT:    The marshmallow has to be on top .
+------------------------------------------------------------------------------------------
+PRED:   It 's a a of that is not a . .
+==========================================================================================
+SRC:    Und , obwohl es wirklich einfach scheint , ist es tatsächlich richtig schwer , weil es Leute drängt sehr schnell zusammenzuarbeiten .
+TGT:    And , though it seems really simple , it 's actually pretty hard   because it forces people   to collaborate very quickly .
+------------------------------------------------------------------------------------------
+PRED:   And if you can n't that that is that is that is not not a , that is not not a , that is not not a .
+TGT:    And the idea 's pretty simple :   unk of four have to build the tallest free - standing structure   out of 20 sticks of spaghetti ,   one yard of[0/7727]
+one yard of string   and a marshmallow .
+------------------------------------------------------------------------------------------
+PRED:   unk is a is that is a unk of a unk of a unk of a unk of unk , unk , unk , , , , , and , and the , and the , and the unk , and the unk .
+==========================================================================================
+SRC:    Der Marshmallow muss oben drauf sein .
+TGT:    The marshmallow has to be on top .
+------------------------------------------------------------------------------------------
+PRED:   It 's a a of that is not a . .
+==========================================================================================
+SRC:    Und , obwohl es wirklich einfach scheint , ist es tatsächlich richtig schwer , weil es Leute drängt sehr schnell zusammenzuarbeiten .
+TGT:    And , though it seems really simple , it 's actually pretty hard   because it forces people   to collaborate very quickly .
+------------------------------------------------------------------------------------------
+PRED:   And if you can n't that that is that is that is not not a , that is not not a , that is not not a .
+==========================================================================================
+SRC:    Und so dachte ich , dass dies eine interessante Idee ist und ich habe es in einen unk verwandelt .
+TGT:    And so , I thought this was an interesting idea ,   and I unk it into a design workshop .
+------------------------------------------------------------------------------------------
+PRED:   And I I , that is that is a , , , I , I , a , and I was a a , and I was a . .
+==========================================================================================
+SRC:    Es war ein riesiger Erfolg .
+TGT:    And it was a huge success .
+------------------------------------------------------------------------------------------
+PRED:   It 's a a of a . .
+
+Epoch: 2 | Time: 17m 16s
+        Train loss: 5.405620164435978 | Train perplexity: 222.65425992934124
+        Val loss: 5.995733993394034 | Val perplexity: 401.71142934256125
+Number of training mini-batches: 3221
+Number of val mini-batches: 28
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:02<00:00, 11.83it/s]
+==========================================================================================
+SRC:    Vor einigen Jahren , hier bei TED , stellte Peter unk einen unk namens " Die unk " vor .
+TGT:    Several years ago here at TED , Peter unk   introduced a design challenge   called the marshmallow challenge .
+------------------------------------------------------------------------------------------
+PRED:   And years ago , a was a , , unk , unk , a unk unk called unk .
+==========================================================================================
+SRC:    Die Idee ist ziemlich einfach . unk müssen die unk unk Struktur mit 20 unk , ca. 1 m Klebeband , ca. 1 m Faden und einem Marshmallow bauen .
+TGT:    And the idea 's pretty simple :   unk of four have to build the tallest free - standing structure   out of 20 sticks of spaghetti ,   one yard of tape , one yard of string   and a marshmallow .
+------------------------------------------------------------------------------------------
+PRED:   The is is is is is that unk of the unk of unk unk of unk , , , , , , , , , , , and a a , and a a and .
+==========================================================================================
+SRC:    Der Marshmallow muss oben drauf sein .
+TGT:    The marshmallow has to be on top .
+------------------------------------------------------------------------------------------
+PRED:   The the is is a to of the . .
+==========================================================================================
+SRC:    Und , obwohl es wirklich einfach scheint , ist es tatsächlich richtig schwer , weil es Leute drängt sehr schnell zusammenzuarbeiten .
+TGT:    And , though it seems really simple , it 's actually pretty hard   because it forces people   to collaborate very quickly .
+------------------------------------------------------------------------------------------
+PRED:   And it 's it is it is is it is it is that it is that it is a lot of us .
+==========================================================================================
+SRC:    Und so dachte ich , dass dies eine interessante Idee ist und ich habe es in einen unk verwandelt .
+TGT:    And so , I thought this was an interesting idea ,   and I unk it into a design workshop .
+------------------------------------------------------------------------------------------
+PRED:   And I I that that is is a is a , and I was a a in a .
+==========================================================================================
+SRC:    Es war ein riesiger Erfolg .
+TGT:    And it was a huge success .
+------------------------------------------------------------------------------------------
+PRED:   It was a a . .
+
+Epoch: 3 | Time: 21m 14s
+        Train loss: 5.053140780600803 | Train perplexity: 156.51326716444802
+        Val loss: 5.688305871827262 | Val perplexity: 295.39276329968044
+Number of training mini-batches: 3221
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3221/3221 [15:40<00:00,  3.42it/s]
+Number of val mini-batches: 28
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:02<00:00, 11.07it/s]
+==========================================================================================
+SRC:    Vor einigen Jahren , hier bei TED , stellte Peter unk einen unk namens " Die unk " vor .
+TGT:    Several years ago here at TED , Peter unk   introduced a design challenge   called the marshmallow challenge .
+------------------------------------------------------------------------------------------
+PRED:   Every few years ago , he was , , unk unk a unk called " called " unk unk . "
+==========================================================================================
+SRC:    Die Idee ist ziemlich einfach . unk müssen die unk unk Struktur mit 20 unk , ca. 1 m Klebeband , ca. 1 m Faden und einem Marshmallow bauen .
+TGT:    And the idea 's pretty simple :   unk of four have to build the tallest free - standing structure   out of 20 sticks of spaghetti ,   one yard of tape ,
+one yard of string   and a marshmallow .
+------------------------------------------------------------------------------------------
+PRED:   The idea is is is is a very important to that unk unk unk of unk of unk , , , a a , , a a and a a and a .
+==========================================================================================
+SRC:    Der Marshmallow muss oben drauf sein .
+TGT:    The marshmallow has to be on top .
+------------------------------------------------------------------------------------------
+PRED:   The the is to to to .
+==========================================================================================
+SRC:    Und , obwohl es wirklich einfach scheint , ist es tats?chlich richtig schwer , weil es Leute dr?ngt sehr schnell zusammenzuarbeiten .
+TGT:    And , though it seems really simple , it 's actually pretty hard   because it forces people   to collaborate very quickly .
+------------------------------------------------------------------------------------------
+PRED:   And it 's it it 's really good , it it 's because it is it is to be very good .
+==========================================================================================
+SRC:    Und so dachte ich , dass dies eine interessante Idee ist und ich habe es in einen unk verwandelt .
+TGT:    And so , I thought this was an interesting idea ,   and I unk it into a design workshop .
+------------------------------------------------------------------------------------------
+PRED:   And so I I that that is a a problem is a and I I it it 's a a .
+==========================================================================================
+SRC:    Es war ein riesiger Erfolg .
+TGT:    And it was a huge success .
+------------------------------------------------------------------------------------------
+PRED:   It was a a .
+
+Epoch: 4 | Time: 17m 14s
+        Train loss: 4.750661434649089 | Train perplexity: 115.6607612672588
+        Val loss: 5.567380888121469 | Val perplexity: 261.7476543040735
+Number of training mini-batches: 3221
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3221/3221 [18:30<00:00,  2.90it/s]
+Number of val mini-batches: 28
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:02<00:00, 11.54it/s]
+==========================================================================================
+SRC:    Vor einigen Jahren , hier bei TED , stellte Peter unk einen unk namens " Die unk " vor .
+TGT:    Several years ago here at TED , Peter unk   introduced a design challenge   called the marshmallow challenge .
+------------------------------------------------------------------------------------------
+PRED:   A few years ago , , , , , unk unk a a called " called " unk . "
+==========================================================================================
+SRC:    Die Idee ist ziemlich einfach . unk müssen die unk unk Struktur mit 20 unk , ca. 1 m Klebeband , ca. 1 m Faden und einem Marshmallow bauen .
+TGT:    And the idea 's pretty simple :   unk of four have to build the tallest free - standing structure   out of 20 sticks of spaghetti ,   one yard of tape , one yard of string   and a marshmallow .
+------------------------------------------------------------------------------------------
+PRED:   The idea is is is easy , and the unk of the unk of of unk , , to a a , , , a a a a and a a .
+==========================================================================================
+SRC:    Der Marshmallow muss oben drauf sein .
+TGT:    The marshmallow has to be on top .
+------------------------------------------------------------------------------------------
+PRED:   The the is to be to .
+==========================================================================================
+SRC:    Und , obwohl es wirklich einfach scheint , ist es tatsächlich richtig schwer , weil es Leute drängt sehr schnell zusammenzuarbeiten .
+TGT:    And , though it seems really simple , it 's actually pretty hard   because it forces people   to collaborate very quickly .
+------------------------------------------------------------------------------------------
+PRED:   And even though it is really easy to it it 's because it because it is to be very difficult to
+==========================================================================================
+SRC:    Und so dachte ich , dass dies eine interessante Idee ist und ich habe es in einen unk verwandelt .
+TGT:    And so , I thought this was an interesting idea ,   and I unk it into a design workshop .
+------------------------------------------------------------------------------------------
+PRED:   And so I thought that that was a a a idea , and I I a a a a .
+==========================================================================================
+SRC:    Es war ein riesiger Erfolg .
+TGT:    And it was a huge success .
+------------------------------------------------------------------------------------------
+PRED:   It was a a . .
+
+Epoch: 5 | Time: 20m 4s
+        Train loss: 4.505323571767987 | Train perplexity: 90.49762178736927
+        Val loss: 5.393029894147601 | Val perplexity: 219.86855579782375
+Number of training mini-batches: 3221
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3221/3221 [15:45<00:00,  3[0/7885]
+Number of val mini-batches: 28
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:02<00:00, 10.76it/s$
+==========================================================================================
+SRC:    Vor einigen Jahren , hier bei TED , stellte Peter unk einen unk namens " Die unk " vor .
+TGT:    Several years ago here at TED , Peter unk   introduced a design challenge   called the marshmallow challenge .
+------------------------------------------------------------------------------------------
+PRED:   A few years ago , here , TED , unk unk unk unk " unk " unk "
+==========================================================================================
+SRC:    Die Idee ist ziemlich einfach . unk müssen die unk unk Struktur mit 20 unk , ca. 1 m Klebeband , ca. 1 m Faden und einem Marshmallow bauen .
+TGT:    And the idea 's pretty simple :   unk of four have to build the tallest free - standing structure   out of 20 sticks of spaghetti ,   one yard of tape ,one yard of string   and a marshmallow .
+------------------------------------------------------------------------------------------
+PRED:   The idea is just easy , and to have to the the unk of of the , , , to the , , , , a , a , a , a , and a a .
+==========================================================================================
+SRC:    Der Marshmallow muss oben drauf sein .
+TGT:    The marshmallow has to be on top .
+------------------------------------------------------------------------------------------
+PRED:   The the needs to be to be . .
+==========================================================================================
+SRC:    Und , obwohl es wirklich einfach scheint , ist es tatsächlich richtig schwer , weil es Leute drängt sehr schnell zusammenzuarbeiten .
+TGT:    And , though it seems really simple , it 's actually pretty hard   because it forces people   to collaborate very quickly .
+------------------------------------------------------------------------------------------
+PRED:   And even though it 's really easy to it it 's really hard to because because it 's because it 's very difficult to . .
+==========================================================================================
+SRC:    Und so dachte ich , dass dies eine interessante Idee ist und ich habe es in einen unk verwandelt .
+TGT:    And so , I thought this was an interesting idea ,   and I unk it into a design workshop .
+------------------------------------------------------------------------------------------
+PRED:   And so I thought that this is a really interesting idea and and I have to a a a . .
+==========================================================================================
+SRC:    Es war ein riesiger Erfolg .
+TGT:    And it was a huge success .
+------------------------------------------------------------------------------------------
+PRED:   It was a big . .
+
+Epoch: 6 | Time: 17m 20s
+        Train loss: 4.295979499594834 | Train perplexity: 73.40407850902636
+        Val loss: 5.26844995362418 | Val perplexity: 194.11484212292544
+Number of training mini-batches: 3221
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3221/3221 [18:51<00:00,  2.85it/s]
+Number of val mini-batches: 28
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:02<00:00, 11.63it/s]
+==========================================================================================
+SRC:    Vor einigen Jahren , hier bei TED , stellte Peter unk einen unk namens " Die unk " vor .
+TGT:    Several years ago here at TED , Peter unk   introduced a design challenge   called the marshmallow challenge .
+------------------------------------------------------------------------------------------
+PRED:   A few years ago , ago , unk unk , a unk called a unk called " The unk . "
+==========================================================================================
+SRC:    Die Idee ist ziemlich einfach . unk müssen die unk unk Struktur mit 20 unk , ca. 1 m Klebeband , ca. 1 m Faden und einem Marshmallow bauen .
+TGT:    And the idea 's pretty simple :   unk of four have to build the tallest free - standing structure   out of 20 sticks of spaghetti ,   one yard of tape , one yard of string   and a marshmallow .
+------------------------------------------------------------------------------------------
+PRED:   And the idea is pretty simple , and the unk to the the unk of of the , , a half - hour , a half - hour , a half of a and and a .
+==========================================================================================
+SRC:    Der Marshmallow muss oben drauf sein .
+TGT:    The marshmallow has to be on top .
+------------------------------------------------------------------------------------------
+PRED:   The the needs to be be . .
+==========================================================================================
+SRC:    Und , obwohl es wirklich einfach scheint , ist es tatsächlich richtig schwer , weil es Leute drängt sehr schnell zusammenzuarbeiten .
+TGT:    And , though it seems really simple , it 's actually pretty hard   because it forces people   to collaborate very quickly .
+------------------------------------------------------------------------------------------
+PRED:   And even though it 's really easy to it it 's really hard to because it because it 's very difficult to because it 's very very difficult to work .
+==========================================================================================
+SRC:    Und so dachte ich , dass dies eine interessante Idee ist und ich habe es in einen unk verwandelt .
+TGT:    And so , I thought this was an interesting idea ,   and I unk it into a design workshop .
+------------------------------------------------------------------------------------------
+PRED:   And so I thought that this is a interesting idea , and I have it into a unk .
+==========================================================================================
+SRC:    Es war ein riesiger Erfolg .
+TGT:    And it was a huge success .
+------------------------------------------------------------------------------------------
+PRED:   It was a huge success .
+
+Epoch: 7 | Time: 20m 24s
+        Train loss: 4.118273036001041 | Train perplexity: 61.453023413699206
+        Val loss: 5.1830799749919345 | Val perplexity: 178.23091324504873
+Number of training mini-batches: 3221
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3221/3221 [15:52<00:00,  3.38it/s]
+Number of val mini-batches: 28
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:02<00:00, 11.38it/s]
+==========================================================================================
+SRC:    Vor einigen Jahren , hier bei TED , stellte Peter unk einen unk namens " Die unk " vor .
+TGT:    Several years ago here at TED , Peter unk   introduced a design challenge   called the marshmallow challenge .
+------------------------------------------------------------------------------------------
+PRED:   A few years ago , in TED , , unk unk , a unk called " unk unk . "
+==========================================================================================
+SRC:    Die Idee ist ziemlich einfach . unk müssen die unk unk Struktur mit 20 unk , ca. 1 m Klebeband , ca. 1 m Faden und einem Marshmallow bauen .
+TGT:    And the idea 's pretty simple :   unk of four have to build the tallest free - standing structure   out of 20 sticks of spaghetti ,   one yard of tape , one yard of string   and a marshmallow .
+------------------------------------------------------------------------------------------
+PRED:   And the idea is pretty simple , and the unk unk unk unk , to the the unk , , , a a , a half - hour - hour , a half - hour and a half - and - .
+==========================================================================================
+SRC:    Der Marshmallow muss oben drauf sein .
+TGT:    The marshmallow has to be on top .
+------------------------------------------------------------------------------------------
+PRED:   The the needs to be the . .
+==========================================================================================
+SRC:    Und , obwohl es wirklich einfach scheint , ist es tatsächlich richtig schwer , weil es Leute drängt sehr schnell zusammenzuarbeiten .
+TGT:    And , though it seems really simple , it 's actually pretty hard   because it forces people   to collaborate very quickly .
+------------------------------------------------------------------------------------------
+PRED:   And even though it 's just easy to it it 's really hard to be because it because it 's very difficult to do it very quickly .
+==========================================================================================
+SRC:    Und so dachte ich , dass dies eine interessante Idee ist und ich habe es in einen unk verwandelt .
+TGT:    And so , I thought this was an interesting idea ,   and I unk it into a design workshop .
+------------------------------------------------------------------------------------------
+PRED:   And so I thought that this is a interesting idea , and I I it it into a unk .
+==========================================================================================
+SRC:    Es war ein riesiger Erfolg .
+TGT:    And it was a huge success .
+------------------------------------------------------------------------------------------
+PRED:   It was a huge success .
+
+Epoch: 8 | Time: 17m 25s
+        Train loss: 3.977041294248309 | Train perplexity: 53.358927082107414
+        Val loss: 5.105878080640521 | Val perplexity: 164.98888048678444
+Number of training mini-batches: 3221
+100%|????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????| 3221/3221 [15:43<00:00,  3.42it/s]
+Number of val mini-batches: 28
+100%|????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????| 28/28 [00:02<00:00, 10.86it/s]
+==========================================================================================
+SRC:    Vor einigen Jahren , hier bei TED , stellte Peter unk einen unk namens " Die unk " vor .
+TGT:    Several years ago here at TED , Peter unk   introduced a design challenge   called the marshmallow challenge .
+------------------------------------------------------------------------------------------
+PRED:   A few years ago , in TED , , unk unk unk a unk called " unk "
+==========================================================================================
+SRC:    Die Idee ist ziemlich einfach . unk müssen die unk unk Struktur mit 20 unk , ca. 1 m Klebeband , ca. 1 m Faden und einem Marshmallow bauen .
+TGT:    And the idea 's pretty simple :   unk of four have to build the tallest free - standing structure   out of 20 sticks of spaghetti ,   one yard of tape , one yard of string   and a marshmallow .
+------------------------------------------------------------------------------------------
+PRED:   And the idea is pretty simple , and unk unk the unk of the structure of the , , it 's a meters of a , , and a a .
+==========================================================================================
+SRC:    Der Marshmallow muss oben drauf sein .
+TGT:    The marshmallow has to be on top .
+------------------------------------------------------------------------------------------
+PRED:   The the needs to be be . .
+==========================================================================================
+SRC:    Und , obwohl es wirklich einfach scheint , ist es tats?chlich richtig schwer , weil es Leute dr?ngt sehr schnell zusammenzuarbeiten .
+TGT:    And , though it seems really simple , it 's actually pretty hard   because it forces people   to collaborate very quickly .
+------------------------------------------------------------------------------------------
+PRED:   And even though it though it 's really easy to it , it actually actually really hard to hard because it because people people very quickly .
+==========================================================================================
+SRC:    Und so dachte ich , dass dies eine interessante Idee ist und ich habe es in einen unk verwandelt .
+TGT:    And so , I thought this was an interesting idea ,   and I unk it into a design workshop .
+------------------------------------------------------------------------------------------
+PRED:   And so I thought that this is interesting interesting and I and I have it into a unk .
+==========================================================================================
+SRC:    Es war ein riesiger Erfolg .
+TGT:    And it was a huge success .
+------------------------------------------------------------------------------------------
+PRED:   It was a huge success .
+
+Epoch: 9 | Time: 17m 16s
+        Train loss: 3.850647299750848 | Train perplexity: 47.023491676800724
+        Val loss: 5.112376400402614 | Val perplexity: 166.06452213587542
+Number of training mini-batches: 3221
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3221/3221 [16:03<00:00,  3.34it/s]
+Number of val mini-batches: 28
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:02<00:00, 11.61it/s]
+==========================================================================================
+SRC:    Vor einigen Jahren , hier bei TED , stellte Peter unk einen unk namens " Die unk " vor .
+TGT:    Several years ago here at TED , Peter unk   introduced a design challenge   called the marshmallow challenge .
+------------------------------------------------------------------------------------------
+PRED:   A few years ago , at TED , , unk unk , a unk called " unk unk . "
+==========================================================================================
+SRC:    Die Idee ist ziemlich einfach . unk müssen die unk unk Struktur mit 20 unk , ca. 1 m Klebeband , ca. 1 m Faden und einem Marshmallow bauen .
+TGT:    And the idea 's pretty simple :   unk of four have to build the tallest free - standing structure   out of 20 sticks of spaghetti ,   one yard of tape , one yard of string   and a marshmallow .
+------------------------------------------------------------------------------------------
+PRED:   And the idea is pretty simple , unk unk have the unk unk unk , and the the , , a meters , a half meters , , and a a .
+==========================================================================================
+SRC:    Der Marshmallow muss oben drauf sein .
+TGT:    The marshmallow has to be on top .
+------------------------------------------------------------------------------------------
+PRED:   The the needs to be be .
+==========================================================================================
+SRC:    Und , obwohl es wirklich einfach scheint , ist es tatsächlich richtig schwer , weil es Leute drängt sehr schnell zusammenzuarbeiten .
+TGT:    And , though it seems really simple , it 's actually pretty hard   because it forces people   to collaborate very quickly .
+------------------------------------------------------------------------------------------
+PRED:   And even though it though it 's pretty easy to it it 's actually really hard to because it because it 's very hard to get to work .
+==========================================================================================
+SRC:    Und so dachte ich , dass dies eine interessante Idee ist und ich habe es in einen unk verwandelt .
+TGT:    And so , I thought this was an interesting idea ,   and I unk it into a design workshop .
+------------------------------------------------------------------------------------------
+PRED:   And so I thought that this is a interesting idea , and I 've it into a unk .
+==========================================================================================
+SRC:    Es war ein riesiger Erfolg .
+TGT:    And it was a huge success .
+------------------------------------------------------------------------------------------
+PRED:   It was a huge success .
+
+Epoch: 10 | Time: 17m 35s
+        Train loss: 3.744849424116436 | Train perplexity: 42.30263698230715
+        Val loss: 5.0642119986670355 | Val perplexity: 158.25568723415748
+Number of training mini-batches: 3221
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3221/3221 [15:42<00:00,  3.42it/s]
+Number of val mini-batches: 28
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:02<00:00, 10.86it/s]
+==========================================================================================
+SRC:    Vor einigen Jahren , hier bei TED , stellte Peter unk einen unk namens " Die unk " vor .
+TGT:    Several years ago here at TED , Peter unk   introduced a design challenge   called the marshmallow challenge .
+------------------------------------------------------------------------------------------
+PRED:   A few years ago , at TED , , unk unk unk a unk called " unk "
+==========================================================================================
+SRC:    Die Idee ist ziemlich einfach . unk müssen die unk unk Struktur mit 20 unk , ca. 1 m Klebeband , ca. 1 m Faden und einem Marshmallow bauen .
+TGT:    And the idea 's pretty simple :   unk of four have to build the tallest free - standing structure   out of 20 sticks of spaghetti ,   one yard of tape , one yard of string   and a marshmallow .
+------------------------------------------------------------------------------------------
+PRED:   And the idea is pretty simple simple , and the unk unk unk unk unk unk to the 20 - 20 - , , , a meters , a a , and a a .
+==========================================================================================
+SRC:    Der Marshmallow muss oben drauf sein .
+TGT:    The marshmallow has to be on top .
+------------------------------------------------------------------------------------------
+PRED:   The the needs to be the the . .
+==========================================================================================
+SRC:    Und , obwohl es wirklich einfach scheint , ist es tatsächlich richtig schwer , weil es Leute drängt sehr schnell zusammenzuarbeiten .
+TGT:    And , though it seems really simple , it 's actually pretty hard   because it forces people   to collaborate very quickly .
+------------------------------------------------------------------------------------------
+PRED:   And even though it really just easy , it 's really really really really hard to it because it 's really hard to hard to work .
+==========================================================================================
+SRC:    Und so dachte ich , dass dies eine interessante Idee ist und ich habe es in einen unk verwandelt .
+TGT:    And so , I thought this was an interesting idea ,   and I unk it into a design workshop .
+------------------------------------------------------------------------------------------
+PRED:   And so I thought that this is a interesting idea idea and I I put it into a unk .
+==========================================================================================
+SRC:    Es war ein riesiger Erfolg .
+TGT:    And it was a huge success .
+------------------------------------------------------------------------------------------
+PRED:   It was a huge success .
+
+Epoch: 11 | Time: 17m 16s
+        Train loss: 3.6532588347038546 | Train perplexity: 38.600253148626585
+        Val loss: 4.992696813174656 | Val perplexity: 147.33321837876483
+Number of training mini-batches: 3221
+ 73%|███████████████████████████████████████████████████████████████████████████████████████▌                                | 2351/3221 [11:07<06:11,  2.34it/s]   92%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████          | 2955/3221 [14:24<01:38,  2.71it/100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3221/3221 [15:41<00:00,  3.42it/s]
+Number of val mini-batches: 28
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:02<00:00, 10.91it/s]
+==========================================================================================
+SRC:    Vor einigen Jahren , hier bei TED , stellte Peter unk einen unk namens " Die unk " vor .
+TGT:    Several years ago here at TED , Peter unk   introduced a design challenge   called the marshmallow challenge .
+------------------------------------------------------------------------------------------
+PRED:   A few years ago , at TED , , unk unk a a a named named unk "
+==========================================================================================
+SRC:    Die Idee ist ziemlich einfach . unk müssen die unk unk Struktur mit 20 unk , ca. 1 m Klebeband , ca. 1 m Faden und einem Marshmallow bauen .
+TGT:    And the idea 's pretty simple :   unk of four have to build the tallest free - standing structure   out of 20 sticks of spaghetti ,   one yard of tape , one yard of string   and a marshmallow .
+------------------------------------------------------------------------------------------
+PRED:   And the idea is pretty simple , unk unk , and the the unk of the unk of the unk , , a half - foot - foot - foot - foot and , a a .
+==========================================================================================
+SRC:    Der Marshmallow muss oben drauf sein .
+TGT:    The marshmallow has to be on top .
+------------------------------------------------------------------------------------------
+PRED:   The the needs to be up .
+==========================================================================================
+SRC:    Und , obwohl es wirklich einfach scheint , ist es tatsächlich richtig schwer , weil es Leute drängt sehr schnell zusammenzuarbeiten .
+TGT:    And , though it seems really simple , it 's actually pretty hard   because it forces people   to collaborate very quickly .
+------------------------------------------------------------------------------------------
+PRED:   And even though it is just easy , it it 's really hard hard because it people people very hard to get it very quickly .
+==========================================================================================
+SRC:    Und so dachte ich , dass dies eine interessante Idee ist und ich habe es in einen unk verwandelt .
+TGT:    And so , I thought this was an interesting idea ,   and I unk it into a design workshop .
+------------------------------------------------------------------------------------------
+PRED:   And so I thought that this is a interesting idea , and I 've it into a unk .
+==========================================================================================
+SRC:    Es war ein riesiger Erfolg .
+TGT:    And it was a huge success .
+------------------------------------------------------------------------------------------
+PRED:   It was a huge success .
+
+Epoch: 12 | Time: 17m 14s
+        Train loss: 3.5690414644997523 | Train perplexity: 35.48256554718356
+        Val loss: 5.034985184669495 | Val perplexity: 153.69731551844745
+Number of training mini-batches: 3221
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3221/3221 [15:51<00:00,  3.38it/s]
+Number of val mini-batches: 28
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:02<00:00, 10.92it/s]
+==========================================================================================
+SRC:    Vor einigen Jahren , hier bei TED , stellte Peter unk einen unk namens " Die unk " vor .
+TGT:    Several years ago here at TED , Peter unk   introduced a design challenge   called the marshmallow challenge .
+------------------------------------------------------------------------------------------
+PRED:   A few years ago , at TED , the unk unk a unk called " unk "
+==========================================================================================
+SRC:    Die Idee ist ziemlich einfach . unk müssen die unk unk Struktur mit 20 unk , ca. 1 m Klebeband , ca. 1 m Faden und einem Marshmallow bauen .
+TGT:    And the idea 's pretty simple :   unk of four have to build the tallest free - standing structure   out of 20 sticks of spaghetti ,   one yard of tape ,
+one yard of string   and a marshmallow .
+------------------------------------------------------------------------------------------
+PRED:   And the idea is pretty simple , and unk the unk of the unk to unk with 20 - , unk , a - foot - foot - foot - foot and and a a .
+==========================================================================================
+SRC:    Der Marshmallow muss oben drauf sein .
+TGT:    The marshmallow has to be on top .
+------------------------------------------------------------------------------------------
+PRED:   The the needs to be to the top .
+==========================================================================================
+SRC:    Und , obwohl es wirklich einfach scheint , ist es tatsächlich richtig schwer , weil es Leute drängt sehr schnell zusammenzuarbeiten .
+TGT:    And , though it seems really simple , it 's actually pretty hard   because it forces people   to collaborate very quickly .
+------------------------------------------------------------------------------------------
+PRED:   And even though it really easy , it 's actually really really difficult , because people people people to get very quickly .
+==========================================================================================
+SRC:    Und so dachte ich , dass dies eine interessante Idee ist und ich habe es in einen unk verwandelt .
+TGT:    And so , I thought this was an interesting idea ,   and I unk it into a design workshop .
+------------------------------------------------------------------------------------------
+PRED:   And so I thought that this is a interesting idea , and I 've it into a unk .
+==========================================================================================
+SRC:    Es war ein riesiger Erfolg .
+TGT:    And it was a huge success .
+------------------------------------------------------------------------------------------
+PRED:   It was a huge success .
+
+Epoch: 13 | Time: 17m 24s
+        Train loss: 3.506822407116101 | Train perplexity: 33.342151492730665
+        Val loss: 5.083690183503287 | Val perplexity: 161.36843771198033
+Number of training mini-batches: 3221
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3221/3221 [15:49<00:00,  3.39it/s]
+Number of val mini-batches: 28
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:02<00:00, 11.02it/s]
+==========================================================================================
+SRC:    Vor einigen Jahren , hier bei TED , stellte Peter unk einen unk namens " Die unk " vor .
+TGT:    Several years ago here at TED , Peter unk   introduced a design challenge   called the marshmallow challenge .
+------------------------------------------------------------------------------------------
+PRED:   A few years ago , at TED , , Peter Peter unk a a unk named " The unk unk . "
+==========================================================================================
+SRC:    Die Idee ist ziemlich einfach . unk müssen die unk unk Struktur mit 20 unk , ca. 1 m Klebeband , ca. 1 m Faden und einem Marshmallow bauen .
+TGT:    And the idea 's pretty simple :   unk of four have to build the tallest free - standing structure   out of 20 sticks of spaghetti ,   one yard of tape ,
+one yard of string   and a marshmallow .
+------------------------------------------------------------------------------------------
+PRED:   And the idea is pretty simple , unk unk , the the unk unk unk to the 20 - 20 - , , , a a of a , and a a a and a a .
+==========================================================================================
+SRC:    Der Marshmallow muss oben drauf sein .
+TGT:    The marshmallow has to be on top .
+------------------------------------------------------------------------------------------
+PRED:   The the needs to be the the . .
+==========================================================================================
+SRC:    Und , obwohl es wirklich einfach scheint , ist es tatsächlich richtig schwer , weil es Leute drängt sehr schnell zusammenzuarbeiten .
+TGT:    And , though it seems really simple , it 's actually pretty hard   because it forces people   to collaborate very quickly .
+------------------------------------------------------------------------------------------
+PRED:   And even though it seems really easy , it 's actually really difficult really hard to work it because it 's very hard to work very quickly .
+==========================================================================================
+SRC:    Und so dachte ich , dass dies eine interessante Idee ist und ich habe es in einen unk verwandelt .
+TGT:    And so , I thought this was an interesting idea ,   and I unk it into a design workshop .
+------------------------------------------------------------------------------------------
+PRED:   And so I thought that this is a interesting idea , and I 've it into a unk .
+==========================================================================================
+SRC:    Es war ein riesiger Erfolg .
+TGT:    And it was a huge success .
+------------------------------------------------------------------------------------------
+PRED:   It was a huge success .
+
+Epoch: 14 | Time: 17m 21s
+        Train loss: 3.441397946578899 | Train perplexity: 31.230586357621068
+        Val loss: 4.952014369624002 | Val perplexity: 141.45962909465194
+Number of training mini-batches: 3221
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3221/3221 [15:51<00:00,  3.38it/s]
+Number of val mini-batches: 28
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:02<00:00, 11.50it/s$
+==========================================================================================
+SRC:    Vor einigen Jahren , hier bei TED , stellte Peter unk einen unk namens " Die unk " vor .
+TGT:    Several years ago here at TED , Peter unk   introduced a design challenge   called the marshmallow challenge .
+------------------------------------------------------------------------------------------
+PRED:   A few years ago , at TED , a Peter unk called a unk called " The unk unk . "
+==========================================================================================
+SRC:    Die Idee ist ziemlich einfach . unk müssen die unk unk Struktur mit 20 unk , ca. 1 m Klebeband , ca. 1 m Faden und einem Marshmallow bauen .
+TGT:    And the idea 's pretty simple :   unk of four have to build the tallest free - standing structure   out of 20 sticks of spaghetti ,   one yard of tape ,
+one yard of string   and a marshmallow .
+------------------------------------------------------------------------------------------
+PRED:   And the idea is pretty simple , and unk to have to unk the unk - unk structure of time , , about a , a half - foot - foot - and - and - and .
+==========================================================================================
+SRC:    Der Marshmallow muss oben drauf sein .
+TGT:    The marshmallow has to be on top .
+------------------------------------------------------------------------------------------
+PRED:   The needs needs to be to be .
+==========================================================================================
+SRC:    Und , obwohl es wirklich einfach scheint , ist es tatsächlich richtig schwer , weil es Leute drängt sehr schnell zusammenzuarbeiten .
+TGT:    And , though it seems really simple , it 's actually pretty hard   because it forces people   to collaborate very quickly .
+------------------------------------------------------------------------------------------
+PRED:   And even though it does n't really easy it 's actually really really difficult , it 's really hard to work very quickly .
+==========================================================================================
+SRC:    Und so dachte ich , dass dies eine interessante Idee ist und ich habe es in einen unk verwandelt .
+TGT:    And so , I thought this was an interesting idea ,   and I unk it into a design workshop .
+------------------------------------------------------------------------------------------
+PRED:   And so I thought that this is a interesting idea , and I 've it into a unk .
+==========================================================================================
+SRC:    Es war ein riesiger Erfolg .
+TGT:    And it was a huge success .
+------------------------------------------------------------------------------------------
+PRED:   It was a huge success .
+
+Epoch: 15 | Time: 17m 24s
+        Train loss: 3.377425067841507 | Train perplexity: 29.295240654865577
+        Val loss: 4.957799570901053 | Val perplexity: 142.280373317713
+Number of training mini-batches: 3221
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3221/3221 [15:41<00:00,  3.42it/s]
+Number of val mini-batches: 28
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:02<00:00, 11.58it/s]
+==========================================================================================
+SRC:    Vor einigen Jahren , hier bei TED , stellte Peter unk einen unk namens " Die unk " vor .
+TGT:    Several years ago here at TED , Peter unk   introduced a design challenge   called the marshmallow challenge .
+------------------------------------------------------------------------------------------
+PRED:   A couple years ago , at TED , a Peter called a unk called " The unk . "
+==========================================================================================
+SRC:    Die Idee ist ziemlich einfach . unk müssen die unk unk Struktur mit 20 unk , ca. 1 m Klebeband , ca. 1 m Faden und einem Marshmallow bauen .
+TGT:    And the idea 's pretty simple :   unk of four have to build the tallest free - standing structure   out of 20 sticks of spaghetti ,   one yard of tape ,
+one yard of string   and a marshmallow .
+------------------------------------------------------------------------------------------
+PRED:   And the idea is pretty simple simple , and the unk unk unk to the unk 20 - unk - , unk , a half - foot - foot - and - and - a - foot - and - and - a . .
+==========================================================================================
+SRC:    Der Marshmallow muss oben drauf sein .
+TGT:    The marshmallow has to be on top .
+------------------------------------------------------------------------------------------
+PRED:   The needs to be to the top .
+==========================================================================================
+SRC:    Und , obwohl es wirklich einfach scheint , ist es tatsächlich richtig schwer , weil es Leute drängt sehr schnell zusammenzuarbeiten .
+TGT:    And , though it seems really simple , it 's actually pretty hard   because it forces people   to collaborate very quickly .
+------------------------------------------------------------------------------------------
+PRED:   And even though it seems really easy , it 's really really hard hard to get people very quickly .
+==========================================================================================
+SRC:    Und so dachte ich , dass dies eine interessante Idee ist und ich habe es in einen unk verwandelt .
+TGT:    And so , I thought this was an interesting idea ,   and I unk it into a design workshop .
+------------------------------------------------------------------------------------------
+PRED:   And so I thought that this is a interesting idea , and I 've it into a unk . .
+==========================================================================================
+SRC:    Es war ein riesiger Erfolg .
+TGT:    And it was a huge success .
+------------------------------------------------------------------------------------------
+PRED:   It was a huge success .
+
+Epoch: 16 | Time: 17m 13s
+        Train loss: 3.331565755785196 | Train perplexity: 27.982120587964157
+        Val loss: 4.933858573436737 | Val perplexity: 138.91449131453783
+Number of training mini-batches: 3221
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3221/3221 [18:41<00:00,  2[0/8316]
+Number of val mini-batches: 28
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:02<00:00, 11.55it/s$
+==========================================================================================
+SRC:    Vor einigen Jahren , hier bei TED , stellte Peter unk einen unk namens " Die unk " vor .
+TGT:    Several years ago here at TED , Peter unk   introduced a design challenge   called the marshmallow challenge .
+------------------------------------------------------------------------------------------
+PRED:   A few years ago , at TED , a Peter unk called a unk called " unk . "
+==========================================================================================
+SRC:    Die Idee ist ziemlich einfach . unk müssen die unk unk Struktur mit 20 unk , ca. 1 m Klebeband , ca. 1 m Faden und einem Marshmallow bauen .
+TGT:    And the idea 's pretty simple :   unk of four have to build the tallest free - standing structure   out of 20 sticks of spaghetti ,   one yard of tape ,
+one yard of string   and a marshmallow .
+------------------------------------------------------------------------------------------
+PRED:   And the idea is pretty simple , and to have to use the unk - unk structure of 20 - , unk , a half a mile - foot - and and a a .
+==========================================================================================
+SRC:    Der Marshmallow muss oben drauf sein .
+TGT:    The marshmallow has to be on top .
+------------------------------------------------------------------------------------------
+PRED:   The needs needs to be the the .
+==========================================================================================
+SRC:    Und , obwohl es wirklich einfach scheint , ist es tatsächlich richtig schwer , weil es Leute drängt sehr schnell zusammenzuarbeiten .
+TGT:    And , though it seems really simple , it 's actually pretty hard   because it forces people   to collaborate very quickly .
+------------------------------------------------------------------------------------------
+PRED:   And even though it really easy it , it 's really really hard , because it people people very quickly to get very quickly .
+==========================================================================================
+SRC:    Und so dachte ich , dass dies eine interessante Idee ist und ich habe es in einen unk verwandelt .
+TGT:    And so , I thought this was an interesting idea ,   and I unk it into a design workshop .
+------------------------------------------------------------------------------------------
+PRED:   And so I thought that this is a interesting idea , and I put it into a unk . .
+==========================================================================================
+SRC:    Es war ein riesiger Erfolg .
+TGT:    And it was a huge success .
+------------------------------------------------------------------------------------------
+PRED:   It was a huge success .
+
+Epoch: 17 | Time: 20m 14s
+        Train loss: 3.2834999402166707 | Train perplexity: 26.668949276645005
+        Val loss: 5.013800501823425 | Val perplexity: 150.47553334296887
+Number of training mini-batches: 3221
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3221/3221 [15:57<00:00,  3.36it/s]
+Number of val mini-batches: 28
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:02<00:00, 10.88it/s]
+==========================================================================================
+SRC:    Vor einigen Jahren , hier bei TED , stellte Peter unk einen unk namens " Die unk " vor .
+TGT:    Several years ago here at TED , Peter unk   introduced a design challenge   called the marshmallow challenge .
+------------------------------------------------------------------------------------------
+PRED:   A few years ago , at TED , , Peter Peter unk a a a called " unk . "
+==========================================================================================
+SRC:    Die Idee ist ziemlich einfach . unk müssen die unk unk Struktur mit 20 unk , ca. 1 m Klebeband , ca. 1 m Faden und einem Marshmallow bauen .
+TGT:    And the idea 's pretty simple :   unk of four have to build the tallest free - standing structure   out of 20 sticks of spaghetti ,   one yard of tape , one yard of string   and a marshmallow .
+------------------------------------------------------------------------------------------
+PRED:   And the idea is pretty simple , and the unk to have to unk the unk of the unk , 20 - mile - , - foot - mile - foot - and - a half - foot and and a a .
+==========================================================================================
+SRC:    Der Marshmallow muss oben drauf sein .
+TGT:    The marshmallow has to be on top .
+------------------------------------------------------------------------------------------
+PRED:   The needs needs to be the .
+==========================================================================================
+SRC:    Und , obwohl es wirklich einfach scheint , ist es tatsächlich richtig schwer , weil es Leute drängt sehr schnell zusammenzuarbeiten .
+TGT:    And , though it seems really simple , it 's actually pretty hard   because it forces people   to collaborate very quickly .
+------------------------------------------------------------------------------------------
+PRED:   And even though it seems really easy , it 's really really hard hard , because it people people very quickly to work .
+==========================================================================================
+SRC:    Und so dachte ich , dass dies eine interessante Idee ist und ich habe es in einen unk verwandelt .
+TGT:    And so , I thought this was an interesting idea ,   and I unk it into a design workshop .
+------------------------------------------------------------------------------------------
+PRED:   And so I thought that this is a interesting idea , and I 've it into a a .
+==========================================================================================
+SRC:    Es war ein riesiger Erfolg .
+TGT:    And it was a huge success .
+------------------------------------------------------------------------------------------
+PRED:   It was a huge success .
+
+Epoch: 18 | Time: 17m 30s
+        Train loss: 3.2420264572062427 | Train perplexity: 25.58551720470258
+        Val loss: 4.957020052841732 | Val perplexity: 142.1695064142156
+Number of training mini-batches: 3221
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3221/3221 [15:42<00:00,  3.42it/s]
+Number of val mini-batches: 28
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:02<00:00, 10.90it/s]
+==========================================================================================
+SRC:    Vor einigen Jahren , hier bei TED , stellte Peter unk einen unk namens " Die unk " vor .
+TGT:    Several years ago here at TED , Peter unk   introduced a design challenge   called the marshmallow challenge .
+------------------------------------------------------------------------------------------
+PRED:   A few years ago , at TED , , unk Peter Peter unk a a unk called " The unk . "
+==========================================================================================
+SRC:    Die Idee ist ziemlich einfach . unk müssen die unk unk Struktur mit 20 unk , ca. 1 m Klebeband , ca. 1 m Faden und einem Marshmallow bauen .TGT:    And the idea 's pretty simple :   unk of four have to build the tallest free - standing structure   out of 20 sticks of spaghetti ,   one yard of tape , one yard of string   and a marshmallow .
+------------------------------------------------------------------------------------------
+PRED:   And the idea is pretty simple simple , unk to have the unk - unk structure of 20 times 20 time , a mile , unk about a a mile and and a a .
+==========================================================================================
+SRC:    Der Marshmallow muss oben drauf sein .
+TGT:    The marshmallow has to be on top .
+------------------------------------------------------------------------------------------
+PRED:   The needs needs to be the top .
+==========================================================================================
+SRC:    Und , obwohl es wirklich einfach scheint , ist es tatsächlich richtig schwer , weil es Leute drängt sehr schnell zusammenzuarbeiten .
+TGT:    And , though it seems really simple , it 's actually pretty hard   because it forces people   to collaborate very quickly .
+------------------------------------------------------------------------------------------
+PRED:   And even though it really easy it seems to be really really hard , because people people are very quickly to work .
+==========================================================================================
+SRC:    Und so dachte ich , dass dies eine interessante Idee ist und ich habe es in einen unk verwandelt .
+TGT:    And so , I thought this was an interesting idea ,   and I unk it into a design workshop .
+------------------------------------------------------------------------------------------
+PRED:   And so I thought that this is an interesting idea , and I 've it into a unk .
+==========================================================================================
+SRC:    Es war ein riesiger Erfolg .
+TGT:    And it was a huge success .
+------------------------------------------------------------------------------------------
+PRED:   It was a huge success .
+
+Epoch: 19 | Time: 17m 16s
+        Train loss: 3.1925869851851085 | Train perplexity: 24.35134259024797
+        Val loss: 4.914032127176013 | Val perplexity: 136.18743387705905
+Number of training mini-batches: 3221
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3221/3221 [15:52<00:00,  3.38it/s]
+Number of val mini-batches: 28
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:02<00:00, 11.45it/s]
+==========================================================================================
+SRC:    Vor einigen Jahren , hier bei TED , stellte Peter unk einen unk namens " Die unk " vor .
+TGT:    Several years ago here at TED , Peter unk   introduced a design challenge   called the marshmallow challenge .
+------------------------------------------------------------------------------------------
+PRED:   A couple years ago , at TED , a Peter called unk unk a a unk called " The unk unk . "
+==========================================================================================
+SRC:    Die Idee ist ziemlich einfach . unk müssen die unk unk Struktur mit 20 unk , ca. 1 m Klebeband , ca. 1 m Faden und einem Marshmallow bauen .
+TGT:    And the idea 's pretty simple :   unk of four have to build the tallest free - standing structure   out of 20 sticks of spaghetti ,   one yard of tape , one yard of string   and a marshmallow .
+------------------------------------------------------------------------------------------
+PRED:   And the idea is pretty simple , and the unk unk to the the unk - unk structure of 20 , , a a a of of a , and a a .
+==========================================================================================
+SRC:    Der Marshmallow muss oben drauf sein .
+TGT:    The marshmallow has to be on top .
+------------------------------------------------------------------------------------------
+PRED:   The needs needs to be the it .
+==========================================================================================
+SRC:    Und , obwohl es wirklich einfach scheint , ist es tatsächlich richtig schwer , weil es Leute drängt sehr schnell zusammenzuarbeiten .
+TGT:    And , though it seems really simple , it 's actually pretty hard   because it forces people   to collaborate very quickly .
+------------------------------------------------------------------------------------------
+PRED:   And even though it really easy it , it 's really really hard hard , it 's very hard to get very quickly .
+==========================================================================================
+SRC:    Und so dachte ich , dass dies eine interessante Idee ist und ich habe es in einen unk verwandelt .
+TGT:    And so , I thought this was an interesting idea ,   and I unk it into a design workshop .
+------------------------------------------------------------------------------------------
+PRED:   And so I thought that this is an interesting idea , and I 've it into a a .
+==========================================================================================
+SRC:    Es war ein riesiger Erfolg .
+TGT:    And it was a huge success .
+------------------------------------------------------------------------------------------
+PRED:   It was a huge success .
+
+Epoch: 20 | Time: 17m 26s
+        Train loss: 3.15749523436864 | Train perplexity: 23.511630987981366
+        Val loss: 4.883945993014744 | Val perplexity: 132.1511037167106
+Number of training mini-batches: 3221
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3221/3221 [15:55<00:00,  3.37it/s]
+Number of val mini-batches: 28
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:02<00:00, 11.45it/s]
+==========================================================================================
+SRC:    Vor einigen Jahren , hier bei TED , stellte Peter unk einen unk namens " Die unk " vor .
+TGT:    Several years ago here at TED , Peter unk   introduced a design challenge   called the marshmallow challenge .
+------------------------------------------------------------------------------------------
+PRED:   A few years ago , at TED , , Peter Peter , a Peter unk called a unk called " The unk . "
+==========================================================================================
+SRC:    Die Idee ist ziemlich einfach . unk müssen die unk unk Struktur mit 20 unk , ca. 1 m Klebeband , ca. 1 m Faden und einem Marshmallow bauen .
+TGT:    And the idea 's pretty simple :   unk of four have to build the tallest free - standing structure   out of 20 sticks of spaghetti ,   one yard of tape , one yard of string   and a marshmallow .
+------------------------------------------------------------------------------------------
+PRED:   And the idea is pretty simple , and to the unk unk unk to unk the unk , , order to have a meter of a mile and a a .
+==========================================================================================
+SRC:    Der Marshmallow muss oben drauf sein .
+TGT:    The marshmallow has to be on top .
+------------------------------------------------------------------------------------------
+PRED:   The needs needs to be the next .
+==========================================================================================
+SRC:    Und , obwohl es wirklich einfach scheint , ist es tatsächlich richtig schwer , weil es Leute drängt sehr schnell zusammenzuarbeiten .
+TGT:    And , though it seems really simple , it 's actually pretty hard   because it forces people   to collaborate very quickly .
+------------------------------------------------------------------------------------------
+PRED:   And even though it seems really easy , it 's really really hard really hard to work , because people people people very quickly .
+==========================================================================================
+SRC:    Und so dachte ich , dass dies eine interessante Idee ist und ich habe es in einen unk verwandelt .
+TGT:    And so , I thought this was an interesting idea ,   and I unk it into a design workshop .
+------------------------------------------------------------------------------------------
+PRED:   And so I thought that this is a interesting idea , and I 've it into a unk . .
+==========================================================================================
+SRC:    Es war ein riesiger Erfolg .
+TGT:    And it was a huge success .
+------------------------------------------------------------------------------------------
+PRED:   It was a huge success .
+
+Epoch: 21 | Time: 17m 28s
+        Train loss: 3.125942028705025 | Train perplexity: 22.781345669971255
+        Val loss: 4.937190132481711 | Val perplexity: 139.378064927208
+ Number of training mini-batches: 3221
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3221/3221 [15:54<00:00,  3.37it/s]
+Number of val mini-batches: 28
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:02<00:00, 10.83it/s]
+==========================================================================================
+SRC:    Vor einigen Jahren , hier bei TED , stellte Peter unk einen unk namens " Die unk " vor .
+TGT:    Several years ago here at TED , Peter unk   introduced a design challenge   called the marshmallow challenge .
+------------------------------------------------------------------------------------------
+PRED:   A few years ago , here at TED TED , Peter Peter unk a a unk called " The unk unk . "
+==========================================================================================
+SRC:    Die Idee ist ziemlich einfach . unk müssen die unk unk Struktur mit 20 unk , ca. 1 m Klebeband , ca. 1 m Faden und einem Marshmallow bauen .
+TGT:    And the idea 's pretty simple :   unk of four have to build the tallest free - standing structure   out of 20 sticks of spaghetti ,   one yard of tape , one yard of string   and a marshmallow .
+------------------------------------------------------------------------------------------
+PRED:   And the idea is pretty simple , and it 's to to the the unk - unk - unk structure with 20 20 , , a a little unk of unk , to build a a .
+==========================================================================================
+SRC:    Der Marshmallow muss oben drauf sein .
+TGT:    The marshmallow has to be on top .
+------------------------------------------------------------------------------------------
+PRED:   The needs needs to be the next .
+==========================================================================================
+SRC:    Und , obwohl es wirklich einfach scheint , ist es tatsächlich richtig schwer , weil es Leute drängt sehr schnell zusammenzuarbeiten .
+TGT:    And , though it seems really simple , it 's actually pretty hard   because it forces people   to collaborate very quickly .
+------------------------------------------------------------------------------------------
+PRED:   And even though it seems really easy , it 's really really hard hard , because it 's very hard to get very quickly .
+==========================================================================================
+SRC:    Und so dachte ich , dass dies eine interessante Idee ist und ich habe es in einen unk verwandelt .
+TGT:    And so , I thought this was an interesting idea ,   and I unk it into a design workshop .
+------------------------------------------------------------------------------------------
+PRED:   And so I thought that this is an interesting idea , and I 've it it into a unk . .
+==========================================================================================
+SRC:    Es war ein riesiger Erfolg .
+TGT:    And it was a huge success .
+------------------------------------------------------------------------------------------
+PRED:   It was a huge success .
+
+Epoch: 22 | Time: 17m 28s
+        Train loss: 3.08944048040663 | Train perplexity: 21.964784809485376
+        Val loss: 4.916564277240208 | Val perplexity: 136.53271786744213
+Number of training mini-batches: 3221
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3221/3221 [15:47<00:00,  3.40it/s]
+Number of val mini-batches: 28
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:02<00:00, 11.03it/s]
+==========================================================================================
+SRC:    Vor einigen Jahren , hier bei TED , stellte Peter unk einen unk namens " Die unk " vor .
+TGT:    Several years ago here at TED , Peter unk   introduced a design challenge   called the marshmallow challenge .
+------------------------------------------------------------------------------------------
+PRED:   A few years ago , at TED , , Peter Peter unk a a called a unk called " The unk . "
+==========================================================================================
+SRC:    Die Idee ist ziemlich einfach . unk müssen die unk unk Struktur mit 20 unk , ca. 1 m Klebeband , ca. 1 m Faden und einem Marshmallow bauen .
+TGT:    And the idea 's pretty simple :   unk of four have to build the tallest free - standing structure   out of 20 sticks of spaghetti ,   one yard of tape , one yard of string   and a $
+arshmallow .
+------------------------------------------------------------------------------------------
+PRED:   unk idea is pretty simple , and to have to unk the unk - unk structure of 20 - unk , , a half a mile - mile - mile - mile , , and a a .
+==========================================================================================
+SRC:    Der Marshmallow muss oben drauf sein .
+TGT:    The marshmallow has to be on top .
+------------------------------------------------------------------------------------------
+PRED:   The needs needs to be the top .
+==========================================================================================
+SRC:    Und , obwohl es wirklich einfach scheint , ist es tatsächlich richtig schwer , weil es Leute drängt sehr schnell zusammenzuarbeiten .
+TGT:    And , though it seems really simple , it 's actually pretty hard   because it forces people   to collaborate very quickly .
+------------------------------------------------------------------------------------------
+PRED:   And although it really really easy , it it really really really hard , because it 's very hard to people very quickly .
+==========================================================================================
+SRC:    Und so dachte ich , dass dies eine interessante Idee ist und ich habe es in einen unk verwandelt .
+TGT:    And so , I thought this was an interesting idea ,   and I unk it into a design workshop .
+------------------------------------------------------------------------------------------
+PRED:   And so I thought that this is an interesting idea , and I 've it into a unk . .
+==========================================================================================
+SRC:    Es war ein riesiger Erfolg .
+TGT:    And it was a huge success .
+------------------------------------------------------------------------------------------
+PRED:   It was a huge success .
+
+Epoch: 23 | Time: 17m 20s
+        Train loss: 3.0537675614314064 | Train perplexity: 21.195047829259117
+        Val loss: 4.945781801428113 | Val perplexity: 140.5807141032779
+Number of training mini-batches: 3221
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3221/3221 [16:19<00:00,  3.29it/s]
+Number of val mini-batches: 28
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:02<00:00, 10.86it/s]
+==========================================================================================
+SRC:    Vor einigen Jahren , hier bei TED , stellte Peter unk einen unk namens " Die unk " vor .
+TGT:    Several years ago here at TED , Peter unk   introduced a design challenge   called the marshmallow challenge .
+------------------------------------------------------------------------------------------
+PRED:   A couple years ago , at TED , , Peter Peter is a a unk called " The unk . "
+==========================================================================================
+SRC:    Die Idee ist ziemlich einfach . unk müssen die unk unk Struktur mit 20 unk , ca. 1 m Klebeband , ca. 1 m Faden und einem Marshmallow bauen .
+TGT:    And the idea 's pretty simple :   unk of four have to build the tallest free - standing structure   out of 20 sticks of spaghetti ,   one yard of tape , one yard of string   and a marshmallow .
+------------------------------------------------------------------------------------------
+PRED:   And the idea is pretty simple , and unk to the the unk - unk structure of 20 - unk unk , , about a mile - mile - mile and a a .
+==========================================================================================
+SRC:    Der Marshmallow muss oben drauf sein .
+TGT:    The marshmallow has to be on top .
+------------------------------------------------------------------------------------------
+PRED:   The needs needs to be to be .
+==========================================================================================
+SRC:    Und , obwohl es wirklich einfach scheint , ist es tatsächlich richtig schwer , weil es Leute drängt sehr schnell zusammenzuarbeiten .
+TGT:    And , though it seems really simple , it 's actually pretty hard   because it forces people   to collaborate very quickly .
+------------------------------------------------------------------------------------------
+PRED:   And even though it really really seems to really , it really really hard really hard to get it very quickly .
+==========================================================================================
+SRC:    Und so dachte ich , dass dies eine interessante Idee ist und ich habe es in einen unk verwandelt .
+TGT:    And so , I thought this was an interesting idea ,   and I unk it into a design workshop .
+------------------------------------------------------------------------------------------
+PRED:   And so I thought that this is an interesting idea , and I 've put it into a unk . .
+==========================================================================================
+SRC:    Es war ein riesiger Erfolg .
+TGT:    And it was a huge success .
+------------------------------------------------------------------------------------------
+PRED:   It was a huge success .
+
+Epoch: 24 | Time: 17m 52s
+        Train loss: 3.027274225484285 | Train perplexity: 20.64089341907147
+        Val loss: 4.978546287332263 | Val perplexity: 145.26305734179903
+Number of training mini-batches: 3221
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3221/3221 [16:47<00:00,  3.20it/s]
+Number of val mini-batches: 28
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:02<00:00, 10.77it/s]
+==========================================================================================
+SRC:    Vor einigen Jahren , hier bei TED , stellte Peter unk einen unk namens " Die unk " vor .
+TGT:    Several years ago here at TED , Peter unk   introduced a design challenge   called the marshmallow challenge .
+------------------------------------------------------------------------------------------
+PRED:   A few years ago , at TED TED , Peter Peter Peter a a a called a called " The unk unk . "
+==========================================================================================
+SRC:    Die Idee ist ziemlich einfach . unk müssen die unk unk Struktur mit 20 unk , ca. 1 m Klebeband , ca. 1 m Faden und einem Marshmallow bauen .
+TGT:    And the idea 's pretty simple :   unk of four have to build the tallest free - standing structure   out of 20 sticks of spaghetti ,   one yard of tape , one yard of string   and a marshmallow .
+------------------------------------------------------------------------------------------
+PRED:   And the idea is pretty simple , and unk , to have to add the unk - unk structure of 20 - 20 - , unk , about a mile - mile - mile - mile and , and a a .
+==========================================================================================
+SRC:    Der Marshmallow muss oben drauf sein .
+TGT:    The marshmallow has to be on top .
+------------------------------------------------------------------------------------------
+PRED:   The needs needs to be be the top .
+==========================================================================================
+SRC:    Und , obwohl es wirklich einfach scheint , ist es tatsächlich richtig schwer , weil es Leute drängt sehr schnell zusammenzuarbeiten .
+TGT:    And , though it seems really simple , it 's actually pretty hard   because it forces people   to collaborate very quickly .
+------------------------------------------------------------------------------------------
+PRED:   And even though it really really seem to really , it really really really hard to get very very hard to work .
+==========================================================================================
+SRC:    Und so dachte ich , dass dies eine interessante Idee ist und ich habe es in einen unk verwandelt .
+TGT:    And so , I thought this was an interesting idea ,   and I unk it into a design workshop .
+------------------------------------------------------------------------------------------
+PRED:   And so I thought that this is an interesting idea , and I 've it it into a unk . .
+==========================================================================================
+SRC:    Es war ein riesiger Erfolg .
+TGT:    And it was a huge success .
+------------------------------------------------------------------------------------------
+PRED:   It was a huge success .
+
+Epoch: 25 | Time: 18m 21s
+        Train loss: 3.0019863883888673 | Train perplexity: 20.12547425290822
+        Val loss: 4.908077733857291 | Val perplexity: 135.37892979511727
+Number of training mini-batches: 3221
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3221/3221 [15:46<00:00,  3.40it/s]
+Number of val mini-batches: 28
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:02<00:00, 11.56it/s]
+==========================================================================================
+SRC:    Vor einigen Jahren , hier bei TED , stellte Peter unk einen unk namens " Die unk " vor .
+TGT:    Several years ago here at TED , Peter unk   introduced a design challenge   called the marshmallow challenge .
+------------------------------------------------------------------------------------------
+PRED:   A few years ago , here at TED TED , Peter Peter called a unk called " The unk . "
+==========================================================================================
+SRC:    Die Idee ist ziemlich einfach . unk müssen die unk unk Struktur mit 20 unk , ca. 1 m Klebeband , ca. 1 m Faden und einem Marshmallow bauen .
+TGT:    And the idea 's pretty simple :   unk of four have to build the tallest free - standing structure   out of 20 sticks of spaghetti ,   one yard of tape , one yard of string   and a marshmallow .
+------------------------------------------------------------------------------------------
+PRED:   And the idea is pretty simple , and to have the unk - unk structure of 20 - 20 - , , , about a a mile , to build a a a long and and a . .
+==========================================================================================
+SRC:    Der Marshmallow muss oben drauf sein .
+TGT:    The marshmallow has to be on top .
+------------------------------------------------------------------------------------------
+PRED:   The needs needs to be the top .
+==========================================================================================
+SRC:    Und , obwohl es wirklich einfach scheint , ist es tatsächlich richtig schwer , weil es Leute drängt sehr schnell zusammenzuarbeiten .
+TGT:    And , though it seems really simple , it 's actually pretty hard   because it forces people   to collaborate very quickly .
+------------------------------------------------------------------------------------------
+PRED:   And even though it really really simple , it 's actually really hard really hard to get it very quickly .
+==========================================================================================
+SRC:    Und so dachte ich , dass dies eine interessante Idee ist und ich habe es in einen unk verwandelt .
+TGT:    And so , I thought this was an interesting idea ,   and I unk it into a design workshop .
+------------------------------------------------------------------------------------------
+PRED:   And so I thought that this is an interesting idea , and I 've turned into into a unk . .
+==========================================================================================
+SRC:    Es war ein riesiger Erfolg .
+TGT:    And it was a huge success .
+------------------------------------------------------------------------------------------
+PRED:   It was a huge success .
+
+Epoch: 26 | Time: 17m 19s
+        Train loss: 2.969139715893155 | Train perplexity: 19.475158218197976
+        Val loss: 4.942245432308742 | Val perplexity: 140.08444681648714
+Number of training mini-batches: 3221
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3221/3221 [15:43<00:00,  3.41it/s]
+Number of val mini-batches: 28
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:02<00:00, 11.51it/s]
+==========================================================================================
+SRC:    Vor einigen Jahren , hier bei TED , stellte Peter unk einen unk namens " Die unk " vor .
+TGT:    Several years ago here at TED , Peter unk   introduced a design challenge   called the marshmallow challenge .
+------------------------------------------------------------------------------------------
+PRED:   A few years ago , here at TED TED , Peter Peter unk a a unk called " The unk unk . "
+==========================================================================================
+SRC:    Die Idee ist ziemlich einfach . unk müssen die unk unk Struktur mit 20 unk , ca. 1 m Klebeband , ca. 1 m Faden und einem Marshmallow bauen .
+TGT:    And the idea 's pretty simple :   unk of four have to build the tallest free - standing structure   out of 20 sticks of spaghetti ,   one yard of tape , one yard of string   and a marshmallow .
+------------------------------------------------------------------------------------------
+PRED:   And the idea is pretty simple , and to to the unk unk structure of 20 - 20 - , , , about a a mile , , about a a mile and a a .
+==========================================================================================
+SRC:    Der Marshmallow muss oben drauf sein .
+TGT:    The marshmallow has to be on top .
+------------------------------------------------------------------------------------------
+PRED:   The needs needs to be on top .
+==========================================================================================
+SRC:    Und , obwohl es wirklich einfach scheint , ist es tatsächlich richtig schwer , weil es Leute drängt sehr schnell zusammenzuarbeiten .
+TGT:    And , though it seems really simple , it 's actually pretty hard   because it forces people   to collaborate very quickly .
+------------------------------------------------------------------------------------------
+PRED:   And although it 's really easy , it 's really really hard really hard , because it 's very very close to people .
+==========================================================================================
+SRC:    Und so dachte ich , dass dies eine interessante Idee ist und ich habe es in einen unk verwandelt .
+TGT:    And so , I thought this was an interesting idea ,   and I unk it into a design workshop .
+------------------------------------------------------------------------------------------
+PRED:   And so I thought that this is an interesting idea , and I 've turned into a unk . .
+==========================================================================================
+SRC:    Es war ein riesiger Erfolg .
+TGT:    And it was a huge success .
+------------------------------------------------------------------------------------------
+PRED:   It was a huge success .
+
+Epoch: 27 | Time: 17m 17s
+        Train loss: 2.8671279760740886 | Train perplexity: 17.58643693166024
+        Val loss: 4.893051394394466 | Val perplexity: 133.35988743779657
+Number of training mini-batches: 3221
+
+100%|????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????| 3221/3221 [15:53<00:00,  3.38it/s]
+Number of val mini-batches: 28
+100%|????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????| 28/28 [00:02<00:00, 10.89it/s]
+==========================================================================================
+SRC:    Vor einigen Jahren , hier bei TED , stellte Peter unk einen unk namens " Die unk " vor .
+TGT:    Several years ago here at TED , Peter unk   introduced a design challenge   called the marshmallow challenge .
+------------------------------------------------------------------------------------------
+PRED:   A couple years ago , at TED TED , Peter Peter unk a a unk called " The unk unk . "
+==========================================================================================
+SRC:    Die Idee ist ziemlich einfach . unk müssen die unk unk Struktur mit 20 unk , ca. 1 m Klebeband , ca. 1 m Faden und einem Marshmallow bauen .
+TGT:    And the idea 's pretty simple :   unk of four have to build the tallest free - standing structure   out of 20 sticks of spaghetti ,   one yard of tape , one yard of string   and a marshmallow .
+------------------------------------------------------------------------------------------
+PRED:   And the idea is pretty simple , and to to the unk unk to unk to unk unk 20 - unk , , about a a mile , about a a of a and and a a .
+==========================================================================================
+SRC:    Der Marshmallow muss oben drauf sein .
+TGT:    The marshmallow has to be on top .
+------------------------------------------------------------------------------------------
+PRED:   The needs needs to be on top .
+==========================================================================================
+SRC:    Und , obwohl es wirklich einfach scheint , ist es tats?chlich richtig schwer , weil es Leute dr?ngt sehr schnell zusammenzuarbeiten .
+TGT:    And , though it seems really simple , it 's actually pretty hard   because it forces people   to collaborate very quickly .
+------------------------------------------------------------------------------------------
+PRED:   And although it 's really easy , it 's really really hard really hard , because it 's very very close to people .
+==========================================================================================
+SRC:    Und so dachte ich , dass dies eine interessante Idee ist und ich habe es in einen unk verwandelt .
+TGT:    And so , I thought this was an interesting idea ,   and I unk it into a design workshop .
+------------------------------------------------------------------------------------------
+PRED:   And so I thought that this is an interesting idea , and I 've turned into a unk . .
+==========================================================================================
+SRC:    Es war ein riesiger Erfolg .
+TGT:    And it was a huge success .
+------------------------------------------------------------------------------------------
+PRED:   It was a huge success .
+
+Epoch: 28 | Time: 17m 27s
+        Train loss: 2.8330382348513314 | Train perplexity: 16.997023404139235
+        Val loss: 4.894917147500174 | Val perplexity: 133.60893632157908
+Number of training mini-batches: 3221
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3221/3221 [15:56<00:00,  3.37it/s]
+Number of val mini-batches: 28
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:02<00:00, 11.03it/s]
+==========================================================================================
+SRC:    Vor einigen Jahren , hier bei TED , stellte Peter unk einen unk namens " Die unk " vor .
+TGT:    Several years ago here at TED , Peter unk   introduced a design challenge   called the marshmallow challenge .
+------------------------------------------------------------------------------------------
+PRED:   A couple years ago , here at TED TED , Peter Peter unk a a unk called " The unk unk . "
+==========================================================================================
+SRC:    Die Idee ist ziemlich einfach . unk müssen die unk unk Struktur mit 20 unk , ca. 1 m Klebeband , ca. 1 m Faden und einem Marshmallow bauen .
+TGT:    And the idea 's pretty simple :   unk of four have to build the tallest free - standing structure   out of 20 sticks of spaghetti ,   one yard of tape , one yard of string   and a marshmallow .
+------------------------------------------------------------------------------------------
+PRED:   The idea is pretty simple . unk , to have to unk the unk unk unk with 20 - , , , about a a mile , , about a a long and a a .
+==========================================================================================
+SRC:    Der Marshmallow muss oben drauf sein .
+TGT:    The marshmallow has to be on top .
+------------------------------------------------------------------------------------------
+PRED:   The needs has to be on top .
+==========================================================================================
+SRC:    Und , obwohl es wirklich einfach scheint , ist es tatsächlich richtig schwer , weil es Leute drängt sehr schnell zusammenzuarbeiten .
+TGT:    And , though it seems really simple , it 's actually pretty hard   because it forces people   to collaborate very quickly .
+------------------------------------------------------------------------------------------
+PRED:   And even though it 's really simple , it 's really really hard really hard , because it 's very very close to work very quickly .
+==========================================================================================
+SRC:    Und so dachte ich , dass dies eine interessante Idee ist und ich habe es in einen unk verwandelt .
+TGT:    And so , I thought this was an interesting idea ,   and I unk it into a design workshop .
+------------------------------------------------------------------------------------------
+PRED:   And so I thought that this is an interesting idea , and I 've turned into a into a unk .
+==========================================================================================
+SRC:    Es war ein riesiger Erfolg .
+TGT:    And it was a huge success .
+------------------------------------------------------------------------------------------
+PRED:   It was a huge success .
+
+Epoch: 29 | Time: 17m 28s
+        Train loss: 2.8186698143839726 | Train perplexity: 16.754549182542235
+        Val loss: 4.911286430699485 | Val perplexity: 135.8140173984644
+Number of training mini-batches: 3221
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3221/3221 [15:52<00:00,  3.38it/s]
+Number of val mini-batches: 28
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:02<00:00, 11.47it/s]
+==========================================================================================
+SRC:    Vor einigen Jahren , hier bei TED , stellte Peter unk einen unk namens " Die unk " vor .
+TGT:    Several years ago here at TED , Peter unk   introduced a design challenge   called the marshmallow challenge .
+------------------------------------------------------------------------------------------
+PRED:   A couple years ago , at TED TED , Peter Peter unk a a unk called " The unk unk . "
+==========================================================================================
+SRC:    Die Idee ist ziemlich einfach . unk müssen die unk unk Struktur mit 20 unk , ca. 1 m Klebeband , ca. 1 m Faden und einem Marshmallow bauen .
+TGT:    And the idea 's pretty simple :   unk of four have to build the tallest free - standing structure   out of 20 sticks of spaghetti ,   one yard of tape , one yard of string   and a marshmallow .
+------------------------------------------------------------------------------------------
+PRED:   unk idea is pretty simple . unk , to have to unk the unk unk unk with 20 - unk , , about a a mile , about a a of a and and a a .
+==========================================================================================
+SRC:    Der Marshmallow muss oben drauf sein .
+TGT:    The marshmallow has to be on top .
+------------------------------------------------------------------------------------------
+PRED:   The the needs to be be on top .
+==========================================================================================
+SRC:    Und , obwohl es wirklich einfach scheint , ist es tatsächlich richtig schwer , weil es Leute drängt sehr schnell zusammenzuarbeiten .
+TGT:    And , though it seems really simple , it 's actually pretty hard   because it forces people   to collaborate very quickly .
+------------------------------------------------------------------------------------------
+PRED:   And even though it 's really simple , it 's really really hard really hard to work very , very people .
+==========================================================================================
+SRC:    Und so dachte ich , dass dies eine interessante Idee ist und ich habe es in einen unk verwandelt .
+TGT:    And so , I thought this was an interesting idea ,   and I unk it into a design workshop .
+------------------------------------------------------------------------------------------
+PRED:   And so I thought that this is an interesting idea , and I 've turned into a unk . .
+==========================================================================================
+SRC:    Es war ein riesiger Erfolg .
+TGT:    And it was a huge success .
+------------------------------------------------------------------------------------------
+PRED:   It was a huge success .
+
+Epoch: 30 | Time: 17m 25s
+        Train loss: 2.8087212767744614 | Train perplexity: 16.58869230451309
+        Val loss: 4.915119000843593 | Val perplexity: 136.33553288067
+Number of training mini-batches: 3221
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3221/3221 [15:50<00:00,  3.39it/s]
+Number of val mini-batches: 28
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:02<00:00, 10.89it/s]
+==========================================================================================
+SRC:    Vor einigen Jahren , hier bei TED , stellte Peter unk einen unk namens " Die unk " vor .
+TGT:    Several years ago here at TED , Peter unk   introduced a design challenge   called the marshmallow challenge .
+------------------------------------------------------------------------------------------
+PRED:   A few years ago , here at TED TED , Peter Peter unk a a unk called " The unk unk . "
+==========================================================================================
+SRC:    Die Idee ist ziemlich einfach . unk müssen die unk unk Struktur mit 20 unk , ca. 1 m Klebeband , ca. 1 m Faden und einem Marshmallow bauen .
+TGT:    And the idea 's pretty simple :   unk of four have to build the tallest free - standing structure   out of 20 sticks of spaghetti ,   one yard of tape , one yard of string   and a marshmallow .
+------------------------------------------------------------------------------------------
+PRED:   unk idea is pretty simple . unk , to have to unk the unk unk unk with 20 - unk , , about a a mile , about a a mile and a a .
+==========================================================================================
+SRC:    Der Marshmallow muss oben drauf sein .
+TGT:    The marshmallow has to be on top .
+------------------------------------------------------------------------------------------
+PRED:   The the needs to be be on top .
+==========================================================================================
+SRC:    Und , obwohl es wirklich einfach scheint , ist es tatsächlich richtig schwer , weil es Leute drängt sehr schnell zusammenzuarbeiten .
+TGT:    And , though it seems really simple , it 's actually pretty hard   because it forces people   to collaborate very quickly .
+------------------------------------------------------------------------------------------
+PRED:   And even though it 's really easy , it 's really really hard really hard , because it 's very very close to work very quickly .
+==========================================================================================
+SRC:    Und so dachte ich , dass dies eine interessante Idee ist und ich habe es in einen unk verwandelt .
+TGT:    And so , I thought this was an interesting idea ,   and I unk it into a design workshop .
+------------------------------------------------------------------------------------------
+PRED:   And so I thought that this is an interesting idea , and I 've turned into a unk . .
+==========================================================================================
+SRC:    Es war ein riesiger Erfolg .
+TGT:    And it was a huge success .
+------------------------------------------------------------------------------------------
+PRED:   It was a huge success .
+
+Epoch: 31 | Time: 17m 24s
+        Train loss: 2.8008972473745573 | Train perplexity: 16.459408308623015
+        Val loss: 4.895565944058554 | Val perplexity: 133.6956494661865
+Number of training mini-batches: 3221
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3221/3221 [15:49<00:00,  3.39it/s]
+Number of val mini-batches: 28
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:02<00:00, 11.44it/s]
+==========================================================================================
+SRC:    Vor einigen Jahren , hier bei TED , stellte Peter unk einen unk namens " Die unk " vor .
+TGT:    Several years ago here at TED , Peter unk   introduced a design challenge   called the marshmallow challenge .
+------------------------------------------------------------------------------------------
+PRED:   A few years ago , here at TED TED , Peter Peter unk a unk called " The unk unk . "
+==========================================================================================
+SRC:    Die Idee ist ziemlich einfach . unk müssen die unk unk Struktur mit 20 unk , ca. 1 m Klebeband , ca. 1 m Faden und einem Marshmallow bauen .
+TGT:    And the idea 's pretty simple :   unk of four have to build the tallest free - standing structure   out of 20 sticks of spaghetti ,   one yard of tape , one yard of string   and a marshmallow .
+------------------------------------------------------------------------------------------
+PRED:   unk idea is pretty simple , and unk to have to unk the unk unk unk with 20 - unk , , about a a mile , and a a .
+==========================================================================================
+SRC:    Der Marshmallow muss oben drauf sein .
+TGT:    The marshmallow has to be on top .
+------------------------------------------------------------------------------------------
+PRED:   The the needs to be be on top .
+==========================================================================================
+SRC:    Und , obwohl es wirklich einfach scheint , ist es tatsächlich richtig schwer , weil es Leute drängt sehr schnell zusammenzuarbeiten .
+TGT:    And , though it seems really simple , it 's actually pretty hard   because it forces people   to collaborate very quickly .
+------------------------------------------------------------------------------------------
+PRED:   And even though it 's really easy , it 's really really hard really hard , because it 's very very close to work very quickly .
+==========================================================================================
+SRC:    Und so dachte ich , dass dies eine interessante Idee ist und ich habe es in einen unk verwandelt .
+TGT:    And so , I thought this was an interesting idea ,   and I unk it into a design workshop .
+------------------------------------------------------------------------------------------
+PRED:   And so I thought that this is an interesting idea , and I 've turned into a unk . .
+==========================================================================================
+SRC:    Es war ein riesiger Erfolg .
+TGT:    And it was a huge success .
+------------------------------------------------------------------------------------------
+PRED:   It was a huge success .
+                                                                                                                                                                                                         [642/8531]
+Epoch: 32 | Time: 17m 23s
+        Train loss: 2.7846415799362103 | Train perplexity: 16.194012577435913
+        Val loss: 4.905583586011614 | Val perplexity: 135.04169545998553
+Number of training mini-batches: 3221
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3221/3221 [15:45<00:00,  3.41it/s]
+Number of val mini-batches: 28
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:02<00:00, 10.96it/s]
+==========================================================================================
+SRC:    Vor einigen Jahren , hier bei TED , stellte Peter unk einen unk namens " Die unk " vor .
+TGT:    Several years ago here at TED , Peter unk   introduced a design challenge   called the marshmallow challenge .
+------------------------------------------------------------------------------------------
+PRED:   A couple years ago , at TED TED , Peter Peter unk a unk called " The unk unk . "
+==========================================================================================
+SRC:    Die Idee ist ziemlich einfach . unk müssen die unk unk Struktur mit 20 unk , ca. 1 m Klebeband , ca. 1 m Faden und einem Marshmallow bauen .
+TGT:    And the idea 's pretty simple :   unk of four have to build the tallest free - standing structure   out of 20 sticks of spaghetti ,   one yard of tape , one yard of string   and a marshmallow .
+------------------------------------------------------------------------------------------
+PRED:   The idea is pretty simple . unk , to have to unk the unk unk structure of 20 , , about a a mile , about a a mile and a a .
+==========================================================================================
+SRC:    Der Marshmallow muss oben drauf sein .
+TGT:    The marshmallow has to be on top .
+------------------------------------------------------------------------------------------
+PRED:   The the needs to be be on top .
+==========================================================================================
+SRC:    Und , obwohl es wirklich einfach scheint , ist es tatsächlich richtig schwer , weil es Leute drängt sehr schnell zusammenzuarbeiten .
+TGT:    And , though it seems really simple , it 's actually pretty hard   because it forces people   to collaborate very quickly .
+------------------------------------------------------------------------------------------
+PRED:   And even though it 's really simple , it 's really really hard really hard , because it 's very very close to people very quickly .
+==========================================================================================
+SRC:    Und so dachte ich , dass dies eine interessante Idee ist und ich habe es in einen unk verwandelt .
+TGT:    And so , I thought this was an interesting idea ,   and I unk it into a design workshop .
+------------------------------------------------------------------------------------------
+PRED:   And so I thought that this is an interesting idea , and I 've turned into a unk . .
+==========================================================================================
+SRC:    Es war ein riesiger Erfolg .
+TGT:    And it was a huge success .
+------------------------------------------------------------------------------------------
+PRED:   It was a huge success .
+
+Epoch: 33 | Time: 17m 18s
+        Train loss: 2.787640950539881 | Train perplexity: 16.24265733808044
+        Val loss: 4.879861005714962 | Val perplexity: 131.61236924726887
+Number of training mini-batches: 3221
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3221/3221 [15:44<00:00,  3.41it/s]
+Number of val mini-batches: 28
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:02<00:00, 10.88it/s]
+==========================================================================================
+SRC:    Vor einigen Jahren , hier bei TED , stellte Peter unk einen unk namens " Die unk " vor .
+TGT:    Several years ago here at TED , Peter unk   introduced a design challenge   called the marshmallow challenge .
+------------------------------------------------------------------------------------------
+PRED:   A couple years ago , at TED TED , Peter Peter unk a unk called " The unk unk . "
+==========================================================================================
+SRC:    Die Idee ist ziemlich einfach . unk müssen die unk unk Struktur mit 20 unk , ca. 1 m Klebeband , ca. 1 m Faden und einem Marshmallow bauen .
+TGT:    And the idea 's pretty simple :   unk of four have to build the tallest free - standing structure   out of 20 sticks of spaghetti ,   one yard of tape , one yard of string   and a marshmallow .
+------------------------------------------------------------------------------------------
+PRED:   The idea is pretty simple . unk , to have to unk the unk unk structure of 20 , , about a a mile , about a a mile and a a .
+==========================================================================================
+SRC:    Der Marshmallow muss oben drauf sein .
+TGT:    The marshmallow has to be on top .
+------------------------------------------------------------------------------------------
+PRED:   The the needs to be be on top .
+==========================================================================================
+SRC:    Und , obwohl es wirklich einfach scheint , ist es tatsächlich richtig schwer , weil es Leute drängt sehr schnell zusammenzuarbeiten .
+TGT:    And , though it seems really simple , it 's actually pretty hard   because it forces people   to collaborate very quickly .
+------------------------------------------------------------------------------------------
+PRED:   And even though it 's really simple , it 's really really hard really hard , because it 's very very close to people very quickly .
+==========================================================================================
+SRC:    Und so dachte ich , dass dies eine interessante Idee ist und ich habe es in einen unk verwandelt .
+TGT:    And so , I thought this was an interesting idea ,   and I unk it into a design workshop .
+------------------------------------------------------------------------------------------
+PRED:   And so I thought that this is an interesting idea , and I 've turned into a unk . .
+==========================================================================================
+SRC:    Es war ein riesiger Erfolg .
+TGT:    And it was a huge success .
+------------------------------------------------------------------------------------------
+PRED:   It was a huge success .
+
+Epoch: 34 | Time: 17m 18s
+        Train loss: 2.7802560414930415 | Train perplexity: 16.123148614621854
+        Val loss: 4.897820898464748 | Val perplexity: 133.99746722479082
+Number of training mini-batches: 3221
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3221/3221 [15:55<00:00,  3.37it/s]
+Number of val mini-batches: 28
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:02<00:00, 11.45it/s]
+==========================================================================================
+SRC:    Vor einigen Jahren , hier bei TED , stellte Peter unk einen unk namens " Die unk " vor .
+TGT:    Several years ago here at TED , Peter unk   introduced a design challenge   called the marshmallow challenge .
+------------------------------------------------------------------------------------------
+PRED:   A couple years ago , at TED TED , Peter Peter unk a unk called " The unk unk . "
+==========================================================================================
+SRC:    Die Idee ist ziemlich einfach . unk müssen die unk unk Struktur mit 20 unk , ca. 1 m Klebeband , ca. 1 m Faden und einem Marshmallow bauen .
+TGT:    And the idea 's pretty simple :   unk of four have to build the tallest free - standing structure   out of 20 sticks of spaghetti ,   one yard of tape , one yard of string   and a marshmallow .
+------------------------------------------------------------------------------------------
+PRED:   The idea is pretty simple . unk , to have to unk the unk unk structure of 20 , , about a a mile , about a a mile and a a .
+==========================================================================================
+SRC:    Der Marshmallow muss oben drauf sein .
+TGT:    The marshmallow has to be on top .
+------------------------------------------------------------------------------------------
+PRED:   The the needs to be be on top .
+==========================================================================================
+SRC:    Und , obwohl es wirklich einfach scheint , ist es tatsächlich richtig schwer , weil es Leute drängt sehr schnell zusammenzuarbeiten .
+TGT:    And , though it seems really simple , it 's actually pretty hard   because it forces people   to collaborate very quickly .
+------------------------------------------------------------------------------------------
+PRED:   And even though it 's really simple , it 's really really hard really hard , because it 's very very close to people very quickly .
+==========================================================================================
+SRC:    Und so dachte ich , dass dies eine interessante Idee ist und ich habe es in einen unk verwandelt .
+TGT:    And so , I thought this was an interesting idea ,   and I unk it into a design workshop .
+------------------------------------------------------------------------------------------
+PRED:   And so I thought that this is an interesting idea , and I 've turned into a unk . .
+==========================================================================================
+SRC:    Es war ein riesiger Erfolg .
+TGT:    And it was a huge success .
+------------------------------------------------------------------------------------------
+PRED:   It was a huge success .
+
+Epoch: 35 | Time: 17m 28s                                                                                                                                                                                [527/8531]
+        Train loss: 2.776023823146826 | Train perplexity: 16.055056122041968
+        Val loss: 4.890470104558127 | Val perplexity: 133.01609082602263
+Number of training mini-batches: 3221
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3221/3221 [15:43<00:00,  3.41it/s]
+Number of val mini-batches: 28
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:02<00:00, 10.86it/s]
+==========================================================================================
+SRC:    Vor einigen Jahren , hier bei TED , stellte Peter unk einen unk namens " Die unk " vor .
+TGT:    Several years ago here at TED , Peter unk   introduced a design challenge   called the marshmallow challenge .
+------------------------------------------------------------------------------------------
+PRED:   A couple years ago , at TED TED , Peter Peter unk a unk called " The unk unk . "
+==========================================================================================
+SRC:    Die Idee ist ziemlich einfach . unk müssen die unk unk Struktur mit 20 unk , ca. 1 m Klebeband , ca. 1 m Faden und einem Marshmallow bauen .
+TGT:    And the idea 's pretty simple :   unk of four have to build the tallest free - standing structure   out of 20 sticks of spaghetti ,   one yard of tape , one yard of string   and a marshmallow .
+------------------------------------------------------------------------------------------
+PRED:   The idea is pretty simple . unk , to have to unk the unk unk structure of 20 - 20 - , , about a a mile , about a a of a .
+==========================================================================================
+SRC:    Der Marshmallow muss oben drauf sein .
+TGT:    The marshmallow has to be on top .
+------------------------------------------------------------------------------------------
+PRED:   The the needs to be be on top .
+==========================================================================================
+SRC:    Und , obwohl es wirklich einfach scheint , ist es tatsächlich richtig schwer , weil es Leute drängt sehr schnell zusammenzuarbeiten .
+TGT:    And , though it seems really simple , it 's actually pretty hard   because it forces people   to collaborate very quickly .
+------------------------------------------------------------------------------------------
+PRED:   And even though it 's really simple , it 's really really hard really hard , because it 's very very close to people .
+==========================================================================================
+SRC:    Und so dachte ich , dass dies eine interessante Idee ist und ich habe es in einen unk verwandelt .
+TGT:    And so , I thought this was an interesting idea ,   and I unk it into a design workshop .
+------------------------------------------------------------------------------------------
+PRED:   And so I thought that this is an interesting idea , and I 've turned into a unk . .
+==========================================================================================
+SRC:    Es war ein riesiger Erfolg .
+TGT:    And it was a huge success .
+------------------------------------------------------------------------------------------
+PRED:   It was a huge success .
+
+Epoch: 36 | Time: 17m 17s
+        Train loss: 2.7788982577517847 | Train perplexity: 16.101271720981277
+        Val loss: 4.884940939290183 | Val perplexity: 132.28265239623116
+Number of training mini-batches: 3221
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3221/3221 [15:43<00:00,  3.41it/s]
+Number of val mini-batches: 28
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:02<00:00, 11.58it/s]
+==========================================================================================
+SRC:    Vor einigen Jahren , hier bei TED , stellte Peter unk einen unk namens " Die unk " vor .
+TGT:    Several years ago here at TED , Peter unk   introduced a design challenge   called the marshmallow challenge .
+------------------------------------------------------------------------------------------
+PRED:   A couple years ago , at TED TED , Peter Peter unk a unk called " The unk unk . "
+==========================================================================================
+SRC:    Die Idee ist ziemlich einfach . unk müssen die unk unk Struktur mit 20 unk , ca. 1 m Klebeband , ca. 1 m Faden und einem Marshmallow bauen .
+TGT:    And the idea 's pretty simple :   unk of four have to build the tallest free - standing structure   out of 20 sticks of spaghetti ,   one yard of tape , one yard of string   and a marshmallow .
+------------------------------------------------------------------------------------------
+PRED:   The idea is pretty simple . unk , to have to unk the unk unk structure of 20 , , 20 - meter - , unk , about a a .
+==========================================================================================
+SRC:    Der Marshmallow muss oben drauf sein .
+TGT:    The marshmallow has to be on top .
+------------------------------------------------------------------------------------------
+PRED:   The the needs to be be on top .
+==========================================================================================
+SRC:    Und , obwohl es wirklich einfach scheint , ist es tatsächlich richtig schwer , weil es Leute drängt sehr schnell zusammenzuarbeiten .
+TGT:    And , though it seems really simple , it 's actually pretty hard   because it forces people   to collaborate very quickly .
+------------------------------------------------------------------------------------------
+PRED:   And even though it 's really simple , it 's really really hard really hard , because it 's very very close to people very quickly .
+==========================================================================================
+SRC:    Und so dachte ich , dass dies eine interessante Idee ist und ich habe es in einen unk verwandelt .
+TGT:    And so , I thought this was an interesting idea ,   and I unk it into a design workshop .
+------------------------------------------------------------------------------------------
+PRED:   And so I thought that this is an interesting idea , and I 've turned into a unk . .
+==========================================================================================
+SRC:    Es war ein riesiger Erfolg .
+TGT:    And it was a huge success .
+------------------------------------------------------------------------------------------
+PRED:   It was a huge success .
+
+Epoch: 37 | Time: 17m 16s
+        Train loss: 2.7705181723461134 | Train perplexity: 15.966905475456958
+        Val loss: 4.895586124488285 | Val perplexity: 133.69834752906982
+Number of training mini-batches: 3221
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3221/3221 [15:42<00:00,  3.42it/s]
+Number of val mini-batches: 28
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:02<00:00, 10.83it/s]
+==========================================================================================
+SRC:    Vor einigen Jahren , hier bei TED , stellte Peter unk einen unk namens " Die unk " vor .
+TGT:    Several years ago here at TED , Peter unk   introduced a design challenge   called the marshmallow challenge .
+------------------------------------------------------------------------------------------
+PRED:   A couple years ago , at TED TED , Peter Peter unk a unk called " The unk unk . "
+==========================================================================================
+SRC:    Die Idee ist ziemlich einfach . unk müssen die unk unk Struktur mit 20 unk , ca. 1 m Klebeband , ca. 1 m Faden und einem Marshmallow bauen .
+TGT:    And the idea 's pretty simple :   unk of four have to build the tallest free - standing structure   out of 20 sticks of spaghetti ,   one yard of tape , one yard of string   and a marshmallow .
+------------------------------------------------------------------------------------------
+PRED:   The idea is pretty simple . unk , to have to unk the unk unk structure of 20 , , 20 - meter - , unk , about a a of a .
+==========================================================================================
+SRC:    Der Marshmallow muss oben drauf sein .
+TGT:    The marshmallow has to be on top .
+------------------------------------------------------------------------------------------
+PRED:   The the needs to be be on top .
+==========================================================================================
+SRC:    Und , obwohl es wirklich einfach scheint , ist es tatsächlich richtig schwer , weil es Leute drängt sehr schnell zusammenzuarbeiten .
+TGT:    And , though it seems really simple , it 's actually pretty hard   because it forces people   to collaborate very quickly .
+------------------------------------------------------------------------------------------
+PRED:   And although it really really seems really , it 's really really hard really hard to work very , very people .
+==========================================================================================
+SRC:    Und so dachte ich , dass dies eine interessante Idee ist und ich habe es in einen unk verwandelt .
+TGT:    And so , I thought this was an interesting idea ,   and I unk it into a design workshop .
+------------------------------------------------------------------------------------------
+PRED:   And so I thought that this is an interesting idea , and I 've turned into a into a .
+==========================================================================================
+SRC:    Es war ein riesiger Erfolg .
+TGT:    And it was a huge success .
+------------------------------------------------------------------------------------------
+PRED:   It was a huge success .
+
+Epoch: 38 | Time: 17m 15s
+        Train loss: 2.7736892595827043 | Train perplexity: 16.01761829050183
+        Val loss: 4.884533132825579 | Val perplexity: 132.22871767364083
+Number of training mini-batches: 3221
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3221/3221 [15:41<00:00,  3.42it/s]
+Number of val mini-batches: 28
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:02<00:00, 11.03it/s]
+==========================================================================================
+SRC:    Vor einigen Jahren , hier bei TED , stellte Peter unk einen unk namens " Die unk " vor .
+TGT:    Several years ago here at TED , Peter unk   introduced a design challenge   called the marshmallow challenge .
+------------------------------------------------------------------------------------------
+PRED:   A couple years ago , at TED TED , Peter Peter unk a unk called " The unk unk . "
+==========================================================================================
+SRC:    Die Idee ist ziemlich einfach . unk müssen die unk unk Struktur mit 20 unk , ca. 1 m Klebeband , ca. 1 m Faden und einem Marshmallow bauen .
+TGT:    And the idea 's pretty simple :   unk of four have to build the tallest free - standing structure   out of 20 sticks of spaghetti ,   one yard of tape , one yard of string   and a marshmallow .
+------------------------------------------------------------------------------------------
+PRED:   The idea is pretty simple . unk , to have to unk the unk unk structure of 20 , , about a a mile , about a a mile and a a .
+==========================================================================================
+SRC:    Der Marshmallow muss oben drauf sein .
+TGT:    The marshmallow has to be on top .
+------------------------------------------------------------------------------------------
+PRED:   The the needs to be be on top .
+==========================================================================================
+SRC:    Und , obwohl es wirklich einfach scheint , ist es tatsächlich richtig schwer , weil es Leute drängt sehr schnell zusammenzuarbeiten .
+TGT:    And , though it seems really simple , it 's actually pretty hard   because it forces people   to collaborate very quickly .
+------------------------------------------------------------------------------------------
+PRED:   And although it really really seems really , it 's really really hard really hard to work very , very people .
+==========================================================================================
+SRC:    Und so dachte ich , dass dies eine interessante Idee ist und ich habe es in einen unk verwandelt .
+TGT:    And so , I thought this was an interesting idea ,   and I unk it into a design workshop .
+------------------------------------------------------------------------------------------
+PRED:   And so I thought that this is an interesting idea , and I 've turned into a into a .
+==========================================================================================
+SRC:    Es war ein riesiger Erfolg .
+TGT:    And it was a huge success .
+------------------------------------------------------------------------------------------
+PRED:   It was a huge success .
+
+Epoch: 39 | Time: 17m 15s
+        Train loss: 2.7745841616838107 | Train perplexity: 16.031958906531372
+        Val loss: 4.884226858615875 | Val perplexity: 132.1882256287862
+Number of training mini-batches: 3221
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3221/3221 [15:48<00:00,  3.40it/s]
+Number of val mini-batches: 28
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:02<00:00, 11.59it/s]
+==========================================================================================
+SRC:    Vor einigen Jahren , hier bei TED , stellte Peter unk einen unk namens " Die unk " vor .
+TGT:    Several years ago here at TED , Peter unk   introduced a design challenge   called the marshmallow challenge .
+------------------------------------------------------------------------------------------
+PRED:   A couple years ago , at TED TED , Peter Peter unk a unk called " The unk unk . "
+==========================================================================================
+SRC:    Die Idee ist ziemlich einfach . unk müssen die unk unk Struktur mit 20 unk , ca. 1 m Klebeband , ca. 1 m Faden und einem Marshmallow bauen .
+TGT:    And the idea 's pretty simple :   unk of four have to build the tallest free - standing structure   out of 20 sticks of spaghetti ,   one yard of tape , one yard of string   and a marshmallow .
+------------------------------------------------------------------------------------------
+PRED:   The idea is pretty simple . unk , to have the unk unk to 20 - unk structure , about about a mile , , about a a mile and a a .
+==========================================================================================
+SRC:    Der Marshmallow muss oben drauf sein .
+TGT:    The marshmallow has to be on top .
+------------------------------------------------------------------------------------------
+PRED:   The the needs to be be on top .
+==========================================================================================
+SRC:    Und , obwohl es wirklich einfach scheint , ist es tatsächlich richtig schwer , weil es Leute drängt sehr schnell zusammenzuarbeiten .
+TGT:    And , though it seems really simple , it 's actually pretty hard   because it forces people   to collaborate very quickly .
+------------------------------------------------------------------------------------------
+PRED:   And even though it 's really simple , it 's really really hard really hard to work very , very people .
+==========================================================================================
+SRC:    Und so dachte ich , dass dies eine interessante Idee ist und ich habe es in einen unk verwandelt .
+TGT:    And so , I thought this was an interesting idea ,   and I unk it into a design workshop .
+------------------------------------------------------------------------------------------
+PRED:   And so I thought that this is an interesting idea , and I 've turned into a unk . .
+==========================================================================================
+SRC:    Es war ein riesiger Erfolg .
+TGT:    And it was a huge success .
+------------------------------------------------------------------------------------------
+PRED:   It was a huge success .
+
+Epoch: 40 | Time: 17m 21s
+        Train loss: 2.780802401094398 | Train perplexity: 16.13196005856086
+        Val loss: 4.958620190620422 | Val perplexity: 142.3971793178353
+Number of training mini-batches: 3221
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3221/3221 [15:48<00:00,  3.40it/s]
+Number of val mini-batches: 28
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:02<00:00, 10.89it/s]
+==========================================================================================
+SRC:    Vor einigen Jahren , hier bei TED , stellte Peter unk einen unk namens " Die unk " vor .
+TGT:    Several years ago here at TED , Peter unk   introduced a design challenge   called the marshmallow challenge .
+------------------------------------------------------------------------------------------
+PRED:   A couple years ago , at TED TED , Peter Peter unk a unk called " The unk unk . "
+==========================================================================================
+SRC:    Die Idee ist ziemlich einfach . unk müssen die unk unk Struktur mit 20 unk , ca. 1 m Klebeband , ca. 1 m Faden und einem Marshmallow bauen .
+TGT:    And the idea 's pretty simple :   unk of four have to build the tallest free - standing structure   out of 20 sticks of spaghetti ,   one yard of tape , one yard of string   and a marshmallow .
+------------------------------------------------------------------------------------------
+PRED:   The idea is pretty simple . unk , to have the unk unk to 20 - unk structure , about about a mile , , about a a mile and a a .
+==========================================================================================
+SRC:    Der Marshmallow muss oben drauf sein .
+TGT:    The marshmallow has to be on top .
+------------------------------------------------------------------------------------------
+PRED:   The the needs to be be on top .
+==========================================================================================
+SRC:    Und , obwohl es wirklich einfach scheint , ist es tatsächlich richtig schwer , weil es Leute drängt sehr schnell zusammenzuarbeiten .
+TGT:    And , though it seems really simple , it 's actually pretty hard   because it forces people   to collaborate very quickly .
+------------------------------------------------------------------------------------------
+PRED:   And even though it 's really simple , it 's really really hard really hard to work very , very people .
+==========================================================================================
+SRC:    Und so dachte ich , dass dies eine interessante Idee ist und ich habe es in einen unk verwandelt .
+TGT:    And so , I thought this was an interesting idea ,   and I unk it into a design workshop .
+------------------------------------------------------------------------------------------
+PRED:   And so I thought that this is an interesting idea , and I 've turned into a unk . .
+==========================================================================================
+SRC:    Es war ein riesiger Erfolg .
+TGT:    And it was a huge success .
+------------------------------------------------------------------------------------------
+PRED:   It was a huge success .
+
+Epoch: 41 | Time: 17m 21s
+        Train loss: 2.779335099619688 | Train perplexity: 16.108306967128648
+        Val loss: 4.961346285683768 | Val perplexity: 142.78589716557815
+Number of training mini-batches: 3221
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3221/3221 [15:48<00:00,  3.40it/s]
+Number of val mini-batches: 28
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:02<00:00, 10.93it/s]
+==========================================================================================
+SRC:    Vor einigen Jahren , hier bei TED , stellte Peter unk einen unk namens " Die unk " vor .
+TGT:    Several years ago here at TED , Peter unk   introduced a design challenge   called the marshmallow challenge .
+------------------------------------------------------------------------------------------
+PRED:   A couple years ago , at TED TED , Peter Peter unk a unk called " The unk unk . "
+==========================================================================================
+SRC:    Die Idee ist ziemlich einfach . unk müssen die unk unk Struktur mit 20 unk , ca. 1 m Klebeband , ca. 1 m Faden und einem Marshmallow bauen .
+TGT:    And the idea 's pretty simple :   unk of four have to build the tallest free - standing structure   out of 20 sticks of spaghetti ,   one yard of tape , one yard of string   and a marshmallow .
+------------------------------------------------------------------------------------------
+PRED:   The idea is pretty simple . unk , to have the unk unk to 20 - unk structure , about about a mile , , about a a mile and a a .
+==========================================================================================
+SRC:    Der Marshmallow muss oben drauf sein .
+TGT:    The marshmallow has to be on top .
+------------------------------------------------------------------------------------------
+PRED:   The the needs to be be on top .
+==========================================================================================
+SRC:    Und , obwohl es wirklich einfach scheint , ist es tatsächlich richtig schwer , weil es Leute drängt sehr schnell zusammenzuarbeiten .
+TGT:    And , though it seems really simple , it 's actually pretty hard   because it forces people   to collaborate very quickly .
+------------------------------------------------------------------------------------------
+PRED:   And even though it 's really simple , it 's really really hard really hard to work very , very people .
+==========================================================================================
+SRC:    Und so dachte ich , dass dies eine interessante Idee ist und ich habe es in einen unk verwandelt .
+TGT:    And so , I thought this was an interesting idea ,   and I unk it into a design workshop .
+------------------------------------------------------------------------------------------
+PRED:   And so I thought that this is an interesting idea , and I 've turned into a unk . .
+==========================================================================================
+SRC:    Es war ein riesiger Erfolg .
+TGT:    And it was a huge success .
+------------------------------------------------------------------------------------------
+PRED:   It was a huge success .
+
+Epoch: 42 | Time: 17m 21s
+        Train loss: 2.7740290909589205 | Train perplexity: 16.023062504774217
+        Val loss: 4.95813866172518 | Val perplexity: 142.32862746756578
+Number of training mini-batches: 3221
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3221/3221 [15:49<00:00,  3.39it/s]
+Number of val mini-batches: 28
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:02<00:00, 10.96it/s]
+==========================================================================================
+SRC:    Vor einigen Jahren , hier bei TED , stellte Peter unk einen unk namens " Die unk " vor .
+TGT:    Several years ago here at TED , Peter unk   introduced a design challenge   called the marshmallow challenge .
+------------------------------------------------------------------------------------------
+PRED:   A couple years ago , at TED TED , Peter Peter unk a unk called " The unk unk . "
+==========================================================================================
+SRC:    Die Idee ist ziemlich einfach . unk müssen die unk unk Struktur mit 20 unk , ca. 1 m Klebeband , ca. 1 m Faden und einem Marshmallow bauen .
+TGT:    And the idea 's pretty simple :   unk of four have to build the tallest free - standing structure   out of 20 sticks of spaghetti ,   one yard of tape , one yard of string   and a marshmallow .
+------------------------------------------------------------------------------------------
+PRED:   The idea is pretty simple . unk , to have the unk unk to 20 - unk structure , about about a mile , , about a a mile and a a .
+==========================================================================================
+SRC:    Der Marshmallow muss oben drauf sein .
+TGT:    The marshmallow has to be on top .
+------------------------------------------------------------------------------------------
+PRED:   The the needs to be be on top .
+==========================================================================================
+SRC:    Und , obwohl es wirklich einfach scheint , ist es tatsächlich richtig schwer , weil es Leute drängt sehr schnell zusammenzuarbeiten .
+TGT:    And , though it seems really simple , it 's actually pretty hard   because it forces people   to collaborate very quickly .
+------------------------------------------------------------------------------------------
+PRED:   And even though it 's really simple , it 's really really hard really hard to work very , very people .
+==========================================================================================
+SRC:    Und so dachte ich , dass dies eine interessante Idee ist und ich habe es in einen unk verwandelt .
+TGT:    And so , I thought this was an interesting idea ,   and I unk it into a design workshop .
+------------------------------------------------------------------------------------------
+PRED:   And so I thought that this is an interesting idea , and I 've turned into a unk . .
+==========================================================================================
+SRC:    Es war ein riesiger Erfolg .
+TGT:    And it was a huge success .
+------------------------------------------------------------------------------------------
+PRED:   It was a huge success .
+
+Epoch: 43 | Time: 17m 22s
+        Train loss: 2.778040725153746 | Train perplexity: 16.087470274051732
+        Val loss: 4.959858485630581 | Val perplexity: 142.57361825362653
+Number of training mini-batches: 3221
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3221/3221 [15:45<00:00,  3.41it/s]
+Number of val mini-batches: 28
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:02<00:00, 11.58it/s]
+==========================================================================================
+SRC:    Vor einigen Jahren , hier bei TED , stellte Peter unk einen unk namens " Die unk " vor .
+TGT:    Several years ago here at TED , Peter unk   introduced a design challenge   called the marshmallow challenge .
+------------------------------------------------------------------------------------------
+PRED:   A couple years ago , at TED TED , Peter Peter unk a unk called " The unk unk . "
+==========================================================================================
+SRC:    Die Idee ist ziemlich einfach . unk müssen die unk unk Struktur mit 20 unk , ca. 1 m Klebeband , ca. 1 m Faden und einem Marshmallow bauen .
+TGT:    And the idea 's pretty simple :   unk of four have to build the tallest free - standing structure   out of 20 sticks of spaghetti ,   one yard of tape , one yard of string   and a marshmallow .
+------------------------------------------------------------------------------------------
+PRED:   The idea is pretty simple . unk , to have the unk unk to 20 - unk structure , about about a mile , , about a a mile and a a .
+==========================================================================================
+SRC:    Der Marshmallow muss oben drauf sein .
+TGT:    The marshmallow has to be on top .
+------------------------------------------------------------------------------------------
+PRED:   The the needs to be be on top .
+==========================================================================================
+SRC:    Und , obwohl es wirklich einfach scheint , ist es tatsächlich richtig schwer , weil es Leute drängt sehr schnell zusammenzuarbeiten .
+TGT:    And , though it seems really simple , it 's actually pretty hard   because it forces people   to collaborate very quickly .
+------------------------------------------------------------------------------------------
+PRED:   And even though it 's really simple , it 's really really hard really hard to work very , very people .
+==========================================================================================
+SRC:    Und so dachte ich , dass dies eine interessante Idee ist und ich habe es in einen unk verwandelt .
+TGT:    And so , I thought this was an interesting idea ,   and I unk it into a design workshop .
+------------------------------------------------------------------------------------------
+PRED:   And so I thought that this is an interesting idea , and I 've turned into a unk . .
+==========================================================================================
+SRC:    Es war ein riesiger Erfolg .
+TGT:    And it was a huge success .
+------------------------------------------------------------------------------------------
+PRED:   It was a huge success .
+
+Epoch: 44 | Time: 17m 17s
+        Train loss: 2.77353722743461 | Train perplexity: 16.015183282690195
+        Val loss: 4.964881011417934 | Val perplexity: 143.29149920661024
+Number of training mini-batches: 3221
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3221/3221 [15:40<00:00,  3.43it/s]
+Number of val mini-batches: 28
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:02<00:00, 11.63it/s]
+==========================================================================================
+SRC:    Vor einigen Jahren , hier bei TED , stellte Peter unk einen unk namens " Die unk " vor .
+TGT:    Several years ago here at TED , Peter unk   introduced a design challenge   called the marshmallow challenge .
+------------------------------------------------------------------------------------------
+PRED:   A couple years ago , at TED TED , Peter Peter unk a unk called " The unk unk . "
+==========================================================================================
+SRC:    Die Idee ist ziemlich einfach . unk müssen die unk unk Struktur mit 20 unk , ca. 1 m Klebeband , ca. 1 m Faden und einem Marshmallow bauen .
+TGT:    And the idea 's pretty simple :   unk of four have to build the tallest free - standing structure   out of 20 sticks of spaghetti ,   one yard of tape , one yard of string   and a marshmallow .
+------------------------------------------------------------------------------------------
+PRED:   The idea is pretty simple . unk , to have the unk unk to 20 - unk structure , about about a mile , , about a a mile and a a .
+==========================================================================================
+SRC:    Der Marshmallow muss oben drauf sein .
+TGT:    The marshmallow has to be on top .
+------------------------------------------------------------------------------------------
+PRED:   The the needs to be be on top .
+==========================================================================================
+SRC:    Und , obwohl es wirklich einfach scheint , ist es tatsächlich richtig schwer , weil es Leute drängt sehr schnell zusammenzuarbeiten .
+TGT:    And , though it seems really simple , it 's actually pretty hard   because it forces people   to collaborate very quickly .
+------------------------------------------------------------------------------------------
+PRED:   And even though it 's really simple , it 's really really hard really hard to work very , very people .
+==========================================================================================
+SRC:    Und so dachte ich , dass dies eine interessante Idee ist und ich habe es in einen unk verwandelt .
+TGT:    And so , I thought this was an interesting idea ,   and I unk it into a design workshop .
+------------------------------------------------------------------------------------------
+PRED:   And so I thought that this is an interesting idea , and I 've turned into a unk . .
+==========================================================================================
+SRC:    Es war ein riesiger Erfolg .
+TGT:    And it was a huge success .
+------------------------------------------------------------------------------------------
+PRED:   It was a huge success .
+
+Epoch: 45 | Time: 17m 12s                                                                                                                                                                                [147/8531]
+        Train loss: 2.778397301086466 | Train perplexity: 16.093207701623314
+        Val loss: 4.965465835162571 | Val perplexity: 143.37532398672263
+Number of training mini-batches: 3221
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3221/3221 [16:01<00:00,  3.35it/s]
+Number of val mini-batches: 28
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:02<00:00, 11.12it/s]
+==========================================================================================
+SRC:    Vor einigen Jahren , hier bei TED , stellte Peter unk einen unk namens " Die unk " vor .
+TGT:    Several years ago here at TED , Peter unk   introduced a design challenge   called the marshmallow challenge .
+------------------------------------------------------------------------------------------
+PRED:   A couple years ago , at TED TED , Peter Peter unk a unk called " The unk unk . "
+==========================================================================================
+SRC:    Die Idee ist ziemlich einfach . unk müssen die unk unk Struktur mit 20 unk , ca. 1 m Klebeband , ca. 1 m Faden und einem Marshmallow bauen .
+TGT:    And the idea 's pretty simple :   unk of four have to build the tallest free - standing structure   out of 20 sticks of spaghetti ,   one yard of tape , one yard of string   and a marshmallow .
+------------------------------------------------------------------------------------------
+PRED:   The idea is pretty simple . unk to have the unk unk to 20 - unk structure , about about a mile , , about a a mile and a a .
+==========================================================================================
+SRC:    Der Marshmallow muss oben drauf sein .
+TGT:    The marshmallow has to be on top .
+------------------------------------------------------------------------------------------
+PRED:   The the needs to be be on top .
+==========================================================================================
+SRC:    Und , obwohl es wirklich einfach scheint , ist es tatsächlich richtig schwer , weil es Leute drängt sehr schnell zusammenzuarbeiten .
+TGT:    And , though it seems really simple , it 's actually pretty hard   because it forces people   to collaborate very quickly .
+------------------------------------------------------------------------------------------
+PRED:   And even though it 's really simple , it 's really really hard really hard to work very , very people .
+==========================================================================================
+SRC:    Und so dachte ich , dass dies eine interessante Idee ist und ich habe es in einen unk verwandelt .
+TGT:    And so , I thought this was an interesting idea ,   and I unk it into a design workshop .
+------------------------------------------------------------------------------------------
+PRED:   And so I thought that this is an interesting idea , and I 've turned into a unk . .
+==========================================================================================
+SRC:    Es war ein riesiger Erfolg .
+TGT:    And it was a huge success .
+------------------------------------------------------------------------------------------
+PRED:   It was a huge success .
+
+Epoch: 46 | Time: 17m 34s
+        Train loss: 2.779149733282549 | Train perplexity: 16.105321305997727
+        Val loss: 4.976837779794421 | Val perplexity: 145.01508620395865
+Number of training mini-batches: 3221
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3221/3221 [15:50<00:00,  3.39it/s]
+Number of val mini-batches: 28
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:02<00:00, 11.57it/s]
+==========================================================================================
+SRC:    Vor einigen Jahren , hier bei TED , stellte Peter unk einen unk namens " Die unk " vor .
+TGT:    Several years ago here at TED , Peter unk   introduced a design challenge   called the marshmallow challenge .
+------------------------------------------------------------------------------------------
+PRED:   A couple years ago , at TED TED , Peter Peter unk a unk called " The unk unk . "
+==========================================================================================
+SRC:    Die Idee ist ziemlich einfach . unk müssen die unk unk Struktur mit 20 unk , ca. 1 m Klebeband , ca. 1 m Faden und einem Marshmallow bauen .
+TGT:    And the idea 's pretty simple :   unk of four have to build the tallest free - standing structure   out of 20 sticks of spaghetti ,   one yard of tape , one yard of string   and a marshmallow .
+------------------------------------------------------------------------------------------
+PRED:   The idea is pretty simple . unk to have the unk unk to 20 - unk structure , about about a mile , , about a a mile and a a .
+==========================================================================================
+SRC:    Der Marshmallow muss oben drauf sein .
+TGT:    The marshmallow has to be on top .
+------------------------------------------------------------------------------------------
+PRED:   The the needs to be be on top .
+==========================================================================================
+SRC:    Und , obwohl es wirklich einfach scheint , ist es tatsächlich richtig schwer , weil es Leute drängt sehr schnell zusammenzuarbeiten .
+TGT:    And , though it seems really simple , it 's actually pretty hard   because it forces people   to collaborate very quickly .
+------------------------------------------------------------------------------------------
+PRED:   And even though it 's really simple , it 's really really hard really hard to work very , very people .
+==========================================================================================
+SRC:    Und so dachte ich , dass dies eine interessante Idee ist und ich habe es in einen unk verwandelt .
+TGT:    And so , I thought this was an interesting idea ,   and I unk it into a design workshop .
+------------------------------------------------------------------------------------------
+PRED:   And so I thought that this is an interesting idea , and I 've turned into a unk . .
+==========================================================================================
+SRC:    Es war ein riesiger Erfolg .
+TGT:    And it was a huge success .
+------------------------------------------------------------------------------------------
+PRED:   It was a huge success .
+
+Epoch: 47 | Time: 17m 23s
+        Train loss: 2.777954642575041 | Train perplexity: 16.086085482729764
+        Val loss: 4.979852165494647 | Val perplexity: 145.45287710995257
+Number of training mini-batches: 3221
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3221/3221 [15:44<00:00,  3.41it/s]
+Number of val mini-batches: 28
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:02<00:00, 11.07it/s]
+==========================================================================================
+SRC:    Vor einigen Jahren , hier bei TED , stellte Peter unk einen unk namens " Die unk " vor .
+TGT:    Several years ago here at TED , Peter unk   introduced a design challenge   called the marshmallow challenge .
+------------------------------------------------------------------------------------------
+PRED:   A couple years ago , here at TED , unk Peter unk a unk called " The unk unk . "
+==========================================================================================
+SRC:    Die Idee ist ziemlich einfach . unk müssen die unk unk Struktur mit 20 unk , ca. 1 m Klebeband , ca. 1 m Faden und einem Marshmallow bauen .
+TGT:    And the idea 's pretty simple :   unk of four have to build the tallest free - standing structure   out of 20 sticks of spaghetti ,   one yard of tape , one yard of string   and a marshmallow .
+------------------------------------------------------------------------------------------
+PRED:   The idea is pretty simple . unk to have the unk unk to 20 - unk structure , about about a mile , , about a a mile and a a .
+==========================================================================================
+SRC:    Der Marshmallow muss oben drauf sein .
+TGT:    The marshmallow has to be on top .
+------------------------------------------------------------------------------------------
+PRED:   The the needs to be be on top .
+==========================================================================================
+SRC:    Und , obwohl es wirklich einfach scheint , ist es tatsächlich richtig schwer , weil es Leute drängt sehr schnell zusammenzuarbeiten .
+TGT:    And , though it seems really simple , it 's actually pretty hard   because it forces people   to collaborate very quickly .
+------------------------------------------------------------------------------------------
+PRED:   And even though it 's really simple , it 's really really hard really hard to work very , very people .
+==========================================================================================
+SRC:    Und so dachte ich , dass dies eine interessante Idee ist und ich habe es in einen unk verwandelt .
+TGT:    And so , I thought this was an interesting idea ,   and I unk it into a design workshop .
+------------------------------------------------------------------------------------------
+PRED:   And so I thought that this is an interesting idea , and I 've turned into a unk . .
+==========================================================================================
+SRC:    Es war ein riesiger Erfolg .
+TGT:    And it was a huge success .
+------------------------------------------------------------------------------------------
+PRED:   It was a huge success .
+
+Epoch: 48 | Time: 17m 17s
+        Train loss: 2.7794050444952636 | Train perplexity: 16.109433700059334
+        Val loss: 4.986829434122358 | Val perplexity: 146.47128964358257
+Number of training mini-batches: 3221
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3221/3221 [15:45<00:00,  3.41it/s]
+Number of val mini-batches: 28
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:02<00:00, 10.97it/s]
+==========================================================================================
+SRC:    Vor einigen Jahren , hier bei TED , stellte Peter unk einen unk namens " Die unk " vor .
+TGT:    Several years ago here at TED , Peter unk   introduced a design challenge   called the marshmallow challenge .
+------------------------------------------------------------------------------------------
+PRED:   A couple years ago , here at TED , unk Peter unk a unk called " The unk unk . "
+==========================================================================================
+SRC:    Die Idee ist ziemlich einfach . unk müssen die unk unk Struktur mit 20 unk , ca. 1 m Klebeband , ca. 1 m Faden und einem Marshmallow bauen .
+TGT:    And the idea 's pretty simple :   unk of four have to build the tallest free - standing structure   out of 20 sticks of spaghetti ,   one yard of tape , one yard of string   and a marshmallow .
+------------------------------------------------------------------------------------------
+PRED:   The idea is pretty simple . unk to have the unk unk to 20 - unk structure , about about a mile , , about a a mile and a a .
+==========================================================================================
+SRC:    Der Marshmallow muss oben drauf sein .
+TGT:    The marshmallow has to be on top .
+------------------------------------------------------------------------------------------
+PRED:   The the needs to be be on top .
+==========================================================================================
+SRC:    Und , obwohl es wirklich einfach scheint , ist es tatsächlich richtig schwer , weil es Leute drängt sehr schnell zusammenzuarbeiten .
+TGT:    And , though it seems really simple , it 's actually pretty hard   because it forces people   to collaborate very quickly .
+------------------------------------------------------------------------------------------
+PRED:   And even though it 's really simple , it 's really really hard really hard to work very , very people .
+==========================================================================================
+SRC:    Und so dachte ich , dass dies eine interessante Idee ist und ich habe es in einen unk verwandelt .
+TGT:    And so , I thought this was an interesting idea ,   and I unk it into a design workshop .
+------------------------------------------------------------------------------------------
+PRED:   And so I thought that this is an interesting idea , and I 've turned into a unk . .
+==========================================================================================
+SRC:    Es war ein riesiger Erfolg .
+TGT:    And it was a huge success .
+------------------------------------------------------------------------------------------
+PRED:   It was a huge success .
+
+Epoch: 49 | Time: 17m 18s
+        Train loss: 2.77808831023785 | Train perplexity: 16.08823581589179
+        Val loss: 4.9902052112988065 | Val perplexity: 146.9665796040836
+Number of training mini-batches: 3221
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3221/3221 [15:47<00:00,  3.40it/s]
+Number of val mini-batches: 28
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:02<00:00, 10.87it/s]
+==========================================================================================
+SRC:    Vor einigen Jahren , hier bei TED , stellte Peter unk einen unk namens " Die unk " vor .
+TGT:    Several years ago here at TED , Peter unk   introduced a design challenge   called the marshmallow challenge .
+------------------------------------------------------------------------------------------
+PRED:   A couple years ago , here at TED , unk Peter unk a unk called " The unk unk . "
+==========================================================================================
+SRC:    Die Idee ist ziemlich einfach . unk müssen die unk unk Struktur mit 20 unk , ca. 1 m Klebeband , ca. 1 m Faden und einem Marshmallow bauen .
+TGT:    And the idea 's pretty simple :   unk of four have to build the tallest free - standing structure   out of 20 sticks of spaghetti ,   one yard of tape , one yard of string   and a marshmallow .
+------------------------------------------------------------------------------------------
+PRED:   The idea is pretty simple . unk to have the unk unk to 20 - unk structure , about about a mile , , about a a mile and a a .
+==========================================================================================
+SRC:    Der Marshmallow muss oben drauf sein .
+TGT:    The marshmallow has to be on top .
+------------------------------------------------------------------------------------------
+PRED:   The the needs to be be on top .
+==========================================================================================
+SRC:    Und , obwohl es wirklich einfach scheint , ist es tatsächlich richtig schwer , weil es Leute drängt sehr schnell zusammenzuarbeiten .
+TGT:    And , though it seems really simple , it 's actually pretty hard   because it forces people   to collaborate very quickly .
+------------------------------------------------------------------------------------------
+PRED:   And even though it 's really simple , it 's really really hard really hard to work very , very people .
+==========================================================================================
+SRC:    Und so dachte ich , dass dies eine interessante Idee ist und ich habe es in einen unk verwandelt .
+TGT:    And so , I thought this was an interesting idea ,   and I unk it into a design workshop .
+------------------------------------------------------------------------------------------
+PRED:   And so I thought that this is an interesting idea , and I 've turned into a unk . .
+==========================================================================================
+SRC:    Es war ein riesiger Erfolg .
+TGT:    And it was a huge success .
+------------------------------------------------------------------------------------------
+PRED:   It was a huge success .
+
+Epoch: 50 | Time: 17m 20s
+        Train loss: 2.7758515714599787 | Train perplexity: 16.052290849710765
+        Val loss: 4.9955442036901205 | Val perplexity: 147.7533314164854
+Best model from epoch 33 is loaded for testing.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1568/1568 [00:23<00:00, 67.80it/s]
+| Test Loss: 4.218 | Test PPL:  67.925 |
